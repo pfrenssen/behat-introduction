@@ -45,6 +45,9 @@
 				<section>
 					<h1>Behat</h1>
 					<h3>On Drupal</h3>
+					<aside class="notes">
+						Turn off Workrave before starting :)
+					</aside>
 				</section>
 
 				<section>
@@ -53,9 +56,6 @@
 						Behat is an open source behaviour-driven development framework for PHP
 					</p>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
 				</section>
 
         <section data-background="#007777">
@@ -64,16 +64,19 @@
 				</section>
 
         <section data-background="#007777">
-          <h2>Improve communication</h2>
-          <h3>A language for business and developers</h3>
+          <h2>Better communication</h2>
 					<ul>
-						<li>Defines the business value of a feature</li>
+            <li>A shared language</h3>
 						<li>Understandable by business and developers</li>
+						<li>Focused on business value</li>
 					</ul>
+					<aside class="notes">
+						Business value: answer WHY?
+					</aside>
 				</section>
 
         <section data-background="#007777">
-          <h2>Improve planning</h2>
+          <h2>Better planning</h2>
           <h3>Effective planning of development cycle</h3>
 					<ul>
 						<li>Based on Agile workflow</li>
@@ -84,12 +87,13 @@
 				</section>
 
         <section data-background="#007777">
-          <h2>Improve documentation</h2>
+          <h2>Better documentation</h2>
           <h3>Complete, always correct</h3>
 					<ul>
-						<li>Every feature is documented</li>
 						<li>Living documentation</li>
-            <li>Specification = documentation</li>
+						<li>Every feature is documented</li>
+            <li>Specification == documentation</li>
+            <li>Basis for writing user manuals</li>
 					</ul>
 				</section>
 
@@ -97,11 +101,15 @@
           <h2>Improve software quality</h2>
           <h3>Manual + automatic tests</h3>
 					<ul>
-						<li>Every feature is documented</li>
-						<li>Living documentation</li>
-            <li>Your specification is your documentation</li>
+						<li>Developer ensures specification is met</li>
+            <li>QA engineer can validate</li>
+            <li>Product owner can approve</li>
 					</ul>
         </section>
+
+				<section data-background="#4d7e65" data-background-transition="slide">
+					<h1>Gherkin</h1>
+				</section>
 
 				<section data-background="#4d7e65" data-background-transition="slide">
 					<h2>Gherkin</h2>
@@ -114,7 +122,7 @@
 					</ul>
 				</section>
 
-				<section data-background="#4d7e65">
+				<section data-background="#4d7e65" data-background-transition="slide">
           <h2>Gherkin example</h2>
           <pre>
             <code class="gherkin">
@@ -124,14 +132,14 @@
                 I need to highlight products on the homepage
 
               Scenario: View product highlights
-                Given I have 5 product highlights
+                Given I have 3 product highlights
                 When I visit the frontpage
                 Then I should see 3 "highlight" elements
             </code>
           </pre>
         </section>
 
-				<section data-background="#4d7e65">
+				<section data-background="#4d7e65" data-background-transition="slide">
           <h2>Gherkin structure</h2>
           <pre>
             <code class="gherkin">
@@ -150,15 +158,23 @@
           </pre>
         </section>
 
-				<section data-background="#4d7e65">
+				<section data-background="#4d7e65" data-background-transition="slide">
           <h2>Scenario outlines</h2>
           <pre>
             <code class="gherkin">
-              Scenario: Number of likes
-                Given I am logged in as
-                When I visit the dashboard
-                And I fill in the following:
-                | Title | My blog post |
+              Scenario: Show number of likes
+                Given I am logged in as &lt;user&gt;
+                When I visit the profile of &lt;friend&gt;
+                And I click on "Like"
+                Then I should see &lt;number&gt; likes
+
+                Examples:
+                | user   | friend | number |
+                | Cindy  | Cindy  | 0      |
+                | Thomas | Cindy  | 1      |
+                | Thomas | Cindy  | 1      |
+                | Roger  | Cindy  | 2      |
+                | Roger  | Thomas | 1      |
             </code>
           </pre>
         </section>
