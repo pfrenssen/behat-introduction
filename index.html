@@ -62,6 +62,27 @@
         </section>
 
         <section data-background="#007777">
+          <h2>How does it look?</h2>
+          <pre>
+            <code class="text">
+              Feature: Event calendar
+                In order to announce upcoming events
+                As an event manager
+                I need to maintain a public event calendar
+
+              Scenario: Create event
+                Given I am logged in as an event manager
+                When I visit the dashboard
+                And I click on 'Add event'
+                And I enter the title 'Summer training'
+                And I enter the date '2015-08-01'
+                And I click on 'Save'
+                Then I should see 'Event has been created'
+            </code>
+          </pre>
+        </section>
+
+        <section data-background="#007777">
           <h2>Better communication</h2>
           <ul>
             <li>A shared language</h3>
