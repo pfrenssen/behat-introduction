@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Introduction to Behat</title>
+    <title>Introduction to BDD</title>
 
     <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
     <meta name="author" content="Hakim El Hattab">
@@ -41,19 +41,10 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
         <section>
-          <h1>Behat</h1>
-          <h3>On Drupal</h3>
+          <h1>Behavior Driven Development</h1>
           <aside class="notes">
             Turn off Workrave before starting :)
           </aside>
-        </section>
-
-        <section>
-          <h2>What is Behat?</h2>
-          <p>
-            Behat is a BDD framework for PHP
-          </p>
-
         </section>
 
         <section data-background="#007777">
@@ -62,7 +53,28 @@
         </section>
 
         <section data-background="#007777">
-          <h2>How does it look?</h2>
+          <h2>What is needed?</h2>
+          <h3>Agile workflow</h3>
+          <h3>Version control</h3>
+          <h3>Business language</h3>
+          <h3>Automated build process</h3>
+        </section>
+
+        <section data-background="#007777">
+          <h2>Agile</h2>
+          <h3>User story = acceptance test</h3>
+          <h3>Definition of ready</h3>
+          <h3>Definition of done</h3>
+          <h3>Releasable state</h3>
+        </section>
+
+        <section data-background="#007777">
+          <h2>Version control</h2>
+          <img src="git-graph.svg">
+        </section>
+
+        <section data-background="#007777">
+          <h2>Business language</h2>
           <pre>
             <code class="text">
               Feature: Event calendar
@@ -83,380 +95,40 @@
         </section>
 
         <section data-background="#007777">
-          <h2>Better communication</h2>
-          <ul>
-            <li>A shared language</h3>
-            <li>Understandable by business and developers</li>
-            <li>Focused on business value</li>
-          </ul>
-          <aside class="notes">
-            Business value: answer WHY?
-          </aside>
+          <h2>Automated build process</h2>
+          <img src="continuous.svg">
         </section>
 
         <section data-background="#007777">
-          <h2>Better planning</h2>
-          <h3>Effective planning of development cycle</h3>
+          <h2>Benefits</h2>
           <ul>
-            <li>Based on Agile workflow</li>
-            <li>Similar to user stories</li>
-            <li>Provides specification (DoR)</li>
-            <li>Provides acceptance criteria (DoD)</li>
-          </ul>
-        </section>
-
-        <section data-background="#007777">
-          <h2>Better documentation</h2>
-          <h3>Complete, always correct</h3>
-          <ul>
-            <li>Living documentation</li>
-            <li>Every feature is documented</li>
-            <li>Specification == documentation</li>
-            <li>Basis for writing user manuals</li>
-          </ul>
-        </section>
-
-        <section data-background="#007777">
-          <h2>Improve software quality</h2>
-          <h3>Manual + automatic tests</h3>
-          <ul>
-            <li>Developer ensures specification is met</li>
-            <li>QA engineer can validate</li>
-            <li>Product owner can approve</li>
+            <li>Communication</li>
+            <li>Planning</li>
+            <li>Documentation</li>
+            <li>Software quality</li>
           </ul>
         </section>
 
         <section data-background="#4d7e65" data-background-transition="slide">
-          <h1>Gherkin</h1>
-        </section>
-
-        <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Gherkin</h2>
-          <h3>A language understandable by everyone</h3>
+          <h2>What is already done</h2>
           <ul>
-            <li>Business readable</li>
-            <li>Developer readable</li>
-            <li>Machine readable</li>
-            <li>Domain specific</li>
+            <li>Behat test scenarios required</li>
+            <li>Behat tests in NextEuropa</li>
+            <li>Documentation in wiki</li>
+            <li>Git on Stash</li>
+            <li>Training on ContinuousPHP</li>
           </ul>
         </section>
 
         <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Gherkin example</h2>
-          <pre>
-            <code class="gherkin">
-              Feature: Product highlights
-                In order to promote specific products
-                As a marketing manager
-                I need to highlight products on the homepage
-
-              Scenario: View product highlights
-                Given I have 3 product highlights
-                When I visit the frontpage
-                Then I should see 3 highlighted products
-            </code>
-          </pre>
+          <h2>Next steps</h2>
+          <ul>
+            <li>Open up Stash</li>
+            <li>Pilot project on ContinuousPHP</li>
+            <li>Adaptations to Multisite / NE</li>
+            <li>Develop test suite</li>
+          </ul>
         </section>
-
-        <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Gherkin structure</h2>
-          <pre>
-            <code class="gherkin">
-              Feature: &lt; title &gt;
-                In order to &lt; business objective &gt;
-                As a &lt; user role or persona &gt;
-                I need to &lt; some action &gt;
-
-              Scenario:
-                Given &lt; a precondition &gt;
-                When &lt; some action &gt;
-                And &lt; some other action &gt;
-                Then &lt; a testable outcome &gt;
-                But &lt; something else we can test &gt;
-            </code>
-          </pre>
-        </section>
-
-        <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Scenario outlines</h2>
-          <pre>
-            <code class="gherkin">
-              Scenario: Show number of likes
-                Given I am logged in as &lt;user&gt;
-                When I visit the profile of &lt;friend&gt;
-                And I click on "Like"
-                Then I should see &lt;number&gt; likes
-
-                Examples:
-                | user   | friend | number |
-                | Cindy  | Cindy  | 0      |
-                | Thomas | Cindy  | 1      |
-                | Thomas | Cindy  | 1      |
-                | Roger  | Cindy  | 2      |
-                | Roger  | Thomas | 1      |
-            </code>
-          </pre>
-        </section>
-
-        <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Tables</h2>
-          <pre>
-            <code class="gherkin">
-              Scenario:
-                Given the following users exist:
-                | username | email                 |
-                | Cindy    | hypodrake@hotmail.com |
-                | Thomas   | thofpop@ec.europa.eu  |
-                | Roger    | sirfrodo@gmail.com    |
-            </code>
-          </pre>
-        </section>
-
-        <section data-background="#e8250c" data-background-transition="slide">
-          <h2>Exercise</h2>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <aside class="notes">
-            Step through each line.
-          </aside>
-          <h2>Installing Behat</h2>
-          <h3>composer.json</h3>
-          <pre class="gherkin">
-            <div>
-              {
-                "require": {
-                  "behat/behat": "3.0.*@stable",
-                  "drupal/drupal-extension": "~3.0"
-                },
-                "minimum-stability": "stable",
-                "config": {
-                  "bin-dir": "bin/"
-                }
-              }
-            </div>
-          </pre>
-          <pre>
-            <div class="bash">
-              $ composer install
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Configuring Behat</h2>
-          <h3>behat.yml</h3>
-          <pre>
-            <div class="behatyml">
-              default:
-                suites:
-                  default:
-                    contexts:
-                      - FeatureContext
-                      - Drupal\DrupalExtension\Context\DrupalContext
-                      - Drupal\DrupalExtension\Context\MessageContext
-                      - Drupal\DrupalExtension\Context\MinkContext
-                extensions:
-                  Behat\MinkExtension:
-                    goutte: ~
-                  Drupal\DrupalExtension:
-                    blackbox: ~
-                    api_driver: 'drupal'
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Bootstrap test suite</h2>
-          <pre>
-            <div class="bash">
-              $ ./bin/behat --init
-            </div>
-          </pre>
-          <pre>
-            <div class="bash">
-              features/
-              features/bootstrap/FeatureContext.php
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Built-in step definitions</h2>
-          <pre>
-
-            <div class="bash">
-            $ ./bin/behat -di
-
-            <span class="fragment">Given I am not logged in
-            Given I am logged in as :name</span>
-
-            <span class="fragment">Given a/an :type (content )with the title :title</span>
-
-            <span class="fragment">When I visit :path
-            When I click :link
-            When I enter :value for :field
-            When I press the :button button</span>
-
-            <span class="fragment">Then I should see the text :text
-            Then I should not see the link :link</span>
-            </div>
-          </pre>
-          <p class="fragment">More than 100 built-in steps!</p>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h3>Aliases</h3>
-          <pre>
-            <div class="bash">
-                Given I am not logged in
-                Given I am an anonymous user
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h3>Regular expressions</h3>
-          <pre>
-            <div class="bash">
-            Given /^(?:|I )am on (?:|the )homepage$/
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Sample scenario with built-ins</h2>
-          <h3>features/frontpage.feature</h3>
-          <pre>
-            <div class="feature">
-          Feature: Frontpage
-            In order to have an overview of the website
-            As an anonymous user
-            I want to see relevant information on the frontpage
-
-          Scenario: Anonymous user can see the frontpage
-            Given I am not logged in
-            When I am on the homepage
-            Then I should see the text "Welcome, earthling."
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Run the test</h2>
-          <pre>
-            <div class="feature">
-          $ ./bin/behat
-
-          <span class="fragment">Feature: Frontpage
-            In order to have an overview of the website
-            As an anonymous user
-            I want to see relevant information on the frontpage
-
-            Scenario: Anonymous user can see the frontpage
-              Given I am not logged in
-              When I am on the homepage
-              Then I should see the text "Welcome, earthling."
-
-          1 scenario (1 passed)
-          3 steps (3 passed)
-          0m0.99s (29.56Mb)</span>
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#783d2b" data-background-transition="slide">
-          <h2>Bad built-in stuff</h2>
-          <pre>
-            <div class="bash">
-          Then I should get a :code HTTP response
-          Then I should see text matching "&lt;regex&gt;"
-          Then I should see :number "&lt;element&gt;" elements
-          Given the cache has been cleared
-          Given I run cron
-          Given I run drush :command
-          Given I wait for AJAX to finish
-            </div>
-          </pre>
-          <h3>No business would ever use this language!</h3>
-        </section>
-
-        <section data-background="#1e7849" data-background-transition="slide">
-          <h2>Use domain specific language</h2>
-          <pre>
-            <div class="bash">
-          Then I should see the text "Page not found"
-          Then I should see the welcome message
-          Then I should see 5 blog posts
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#1e7849" data-background-transition="slide">
-          <h2>Defining your own steps</h2>
-          <pre>
-            <div class="bash">
-  $ ./bin/behat
-
-  1 scenario (1 undefined)
-  5 steps (4 passed, 1 undefined)
-  0m5.47s (42.90Mb)
-
-  --- FeatureContext has missing steps. Define them with these snippets:
-
-      /**
-       * @Then I should see the welcome message
-       */
-      public function iShouldSeeTheWelcomeMessage()
-      {
-          throw new PendingException();
-      }
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#1e7849" data-background-transition="slide">
-          <h2>Add missing steps automatically</h2>
-          <pre>
-            <div class="bash">
-          $ ./bin/behat --append-snippets
-
-          1 scenario (1 undefined)
-          5 steps (4 passed, 1 undefined)
-          0m5.47s (42.90Mb)
-
-          `I should see the welcome message` definition added
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#1e7849" data-background-transition="slide">
-          <h2>Example custom steps</h2>
-          <pre>
-            <div class="php">
-    /**
-     * @Then I should see :number blog posts
-     */
-    public function assertBlogPostCount($number) {
-      $this->assertSession()->elementsCount('css', 'div.blog', $number);
-    }
-            </div>
-          </pre>
-          <p>See MinkContext and DrupalContext</p>
-        </section>
-
-        <section data-background="#007777" data-background-transition="slide">
-          <h2>Start using BDD today</h2>
-          <ol>
-            <li>Write Gherkin scenarios for every ticket</li>
-            <li class="fragment">Ask product owner to approve scenarios</li>
-            <li class="fragment">Add features to your project</li>
-            <li class="fragment">Use placeholders for custom steps</li>
-            <li class="fragment">Test scenarios manually</li>
-            <li class="fragment">Install behat in your project (10 min)</li>
-          </ol>
-        </section>
-
       </div>
     </div>
 
