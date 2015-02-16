@@ -1,0 +1,2817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.2" baseProfile="tiny" width="297mm" height="210mm" viewBox="0 0 29700 21000" preserveAspectRatio="xMidYMid" fill-rule="evenodd" clip-path="url(#presentation_clip_path)" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <defs class="ClipPathGroup">
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect x="0" y="0" width="29700" height="21000"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <font id="EmbeddedFont_1" horiz-adv-x="2048">
+   <font-face font-family="DejaVu Sans Condensed embedded" units-per-em="2048" font-weight="bold" font-style="normal" ascent="1879" descent="476"/>
+   <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
+   <glyph unicode="x" horiz-adv-x="1139" d="M 410,573 L 46,1120 387,1120 593,788 802,1120 1143,1120 779,575 1161,0 820,0 593,354 369,0 28,0 410,573 Z"/>
+   <glyph unicode="v" horiz-adv-x="1166" d="M 28,1120 L 350,1120 601,346 851,1120 1174,1120 778,0 424,0 28,1120 Z"/>
+   <glyph unicode="u" horiz-adv-x="1033" d="M 144,436 L 144,1120 468,1120 468,1008 C 468,947 468,871 467,780 466,688 466,627 466,596 466,506 468,441 473,402 477,362 484,333 494,315 507,292 525,274 546,261 567,248 592,242 619,242 686,242 739,271 778,328 816,385 835,465 835,567 L 835,1120 1157,1120 1157,0 835,0 835,162 C 786,97 735,49 681,18 626,-13 566,-29 501,-29 385,-29 297,11 236,90 175,169 144,285 144,436 Z"/>
+   <glyph unicode="t" horiz-adv-x="848" d="M 507,1438 L 507,1120 839,1120 839,864 507,864 507,389 C 507,337 516,302 535,284 553,265 590,256 645,256 L 811,256 811,0 535,0 C 408,0 317,30 264,89 211,148 184,248 184,389 L 184,864 24,864 24,1120 184,1120 184,1438 507,1438 Z"/>
+   <glyph unicode="s" horiz-adv-x="927" d="M 942,1085 L 942,813 C 873,845 807,869 743,885 678,901 618,909 561,909 500,909 454,901 425,884 395,867 380,840 380,805 380,776 391,754 414,739 436,724 476,712 535,705 L 591,696 C 756,673 868,634 925,581 982,528 1010,444 1010,330 1010,211 970,121 891,61 812,1 693,-29 536,-29 469,-29 401,-23 330,-12 259,0 186,18 111,41 L 111,313 C 175,278 241,252 309,235 376,218 445,209 514,209 577,209 624,219 656,238 688,257 704,286 704,324 704,356 693,380 671,396 649,411 605,423 540,432 L 483,440 C 340,460 239,497 182,551 124,605 95,687 95,797 95,916 132,1004 205,1061 278,1118 391,1147 542,1147 601,1147 664,1142 729,1132 794,1122 865,1106 942,1085 Z"/>
+   <glyph unicode="r" horiz-adv-x="769" d="M 904,815 C 875,830 847,841 820,848 792,855 764,858 735,858 652,858 589,829 544,770 499,711 477,626 477,516 L 477,0 155,0 155,1120 477,1120 477,936 C 518,1009 566,1062 620,1095 673,1128 738,1145 813,1145 824,1145 835,1145 848,1145 861,1145 879,1143 903,1139 L 904,815 Z"/>
+   <glyph unicode="p" horiz-adv-x="1113" d="M 477,162 L 477,-426 155,-426 155,1120 477,1120 477,956 C 522,1021 571,1070 625,1101 679,1132 741,1147 811,1147 935,1147 1037,1092 1117,983 1197,873 1237,732 1237,559 1237,386 1197,245 1117,136 1037,26 935,-29 811,-29 741,-29 679,-13 625,18 571,49 522,97 477,162 Z M 691,887 C 622,887 570,859 533,803 496,746 477,665 477,559 477,453 496,372 533,316 570,259 622,231 691,231 760,231 813,259 850,315 886,371 904,452 904,559 904,666 886,747 850,803 813,859 760,887 691,887 Z"/>
+   <glyph unicode="o" horiz-adv-x="1139" d="M 634,891 C 563,891 508,863 471,806 434,749 415,666 415,559 415,452 434,370 471,313 508,256 563,227 634,227 705,227 759,256 796,313 833,370 851,452 851,559 851,666 833,749 796,806 759,863 705,891 634,891 Z M 634,1147 C 808,1147 944,1095 1041,991 1138,887 1187,743 1187,559 1187,375 1138,231 1041,127 944,23 808,-29 634,-29 461,-29 325,23 227,127 128,231 79,375 79,559 79,743 128,887 227,991 325,1095 461,1147 634,1147 Z"/>
+   <glyph unicode="l" horiz-adv-x="345" d="M 155,1556 L 477,1556 477,0 155,0 155,1556 Z"/>
+   <glyph unicode="i" horiz-adv-x="345" d="M 155,1120 L 477,1120 477,0 155,0 155,1120 Z M 155,1556 L 477,1556 477,1264 155,1264 155,1556 Z"/>
+   <glyph unicode="f" horiz-adv-x="795" d="M 818,1556 L 818,1321 640,1321 C 595,1321 563,1312 545,1294 527,1275 518,1243 518,1198 L 518,1120 793,1120 793,864 518,864 518,0 195,0 195,864 35,864 35,1120 195,1120 195,1198 C 195,1320 226,1410 287,1469 348,1527 443,1556 572,1556 L 818,1556 Z"/>
+   <glyph unicode="e" horiz-adv-x="1112" d="M 1161,563 L 1161,461 408,461 C 415,377 443,314 490,272 537,230 602,209 686,209 754,209 824,220 895,243 966,265 1038,299 1113,344 L 1113,68 C 1037,36 961,12 885,-5 808,-21 732,-29 656,-29 473,-29 332,23 231,126 130,229 79,373 79,559 79,742 129,885 228,990 327,1095 464,1147 638,1147 797,1147 924,1094 1019,988 1114,882 1161,740 1161,563 Z M 830,682 C 830,750 812,805 777,847 741,888 694,909 636,909 574,909 524,890 485,851 446,812 421,755 411,682 L 830,682 Z"/>
+   <glyph unicode="a" horiz-adv-x="1059" d="M 607,504 C 540,504 489,491 455,466 421,441 404,403 404,354 404,309 418,273 445,248 472,222 510,209 559,209 620,209 671,233 712,282 753,330 774,390 774,463 L 774,504 607,504 Z M 1099,639 L 1099,0 774,0 774,166 C 731,98 682,49 628,18 574,-13 508,-29 431,-29 326,-29 242,5 177,73 112,140 79,228 79,336 79,467 120,564 201,625 282,686 410,717 584,717 L 774,717 774,745 C 774,802 754,843 714,870 673,896 611,909 526,909 457,909 392,901 333,886 274,871 218,848 167,817 L 167,1090 C 236,1109 306,1123 376,1133 445,1142 515,1147 584,1147 766,1147 897,1107 978,1028 1059,948 1099,818 1099,639 Z"/>
+   <glyph unicode="R" horiz-adv-x="1218" d="M 662,831 C 734,831 786,846 818,876 849,906 865,955 865,1024 865,1092 849,1141 818,1170 786,1199 734,1214 662,1214 L 516,1214 516,831 662,831 Z M 516,565 L 516,0 169,0 169,1493 698,1493 C 875,1493 1005,1460 1088,1394 1170,1328 1211,1224 1211,1081 1211,982 1190,901 1147,838 1104,775 1040,728 953,698 1000,686 1043,659 1081,617 1118,574 1156,510 1194,424 L 1382,0 1013,0 850,371 C 817,446 783,497 749,524 715,551 670,565 614,565 L 516,565 Z"/>
+   <glyph unicode="M" horiz-adv-x="1509" d="M 169,1493 L 610,1493 916,694 1224,1493 1664,1493 1664,0 1336,0 1336,1092 1027,287 807,287 498,1092 498,0 169,0 169,1493 Z"/>
+   <glyph unicode="H" horiz-adv-x="1218" d="M 169,1493 L 516,1493 516,924 1027,924 1027,1493 1373,1493 1373,0 1027,0 1027,633 516,633 516,0 169,0 169,1493 Z"/>
+   <glyph unicode="F" horiz-adv-x="953" d="M 169,1493 L 1104,1493 1104,1202 516,1202 516,924 1069,924 1069,633 516,633 516,0 169,0 169,1493 Z"/>
+   <glyph unicode="D" horiz-adv-x="1271" d="M 516,1202 L 516,291 640,291 C 781,291 889,330 964,408 1039,486 1076,599 1076,748 1076,896 1039,1009 965,1086 890,1163 782,1202 640,1202 L 516,1202 Z M 169,1493 L 535,1493 C 739,1493 891,1477 991,1445 1090,1412 1176,1357 1247,1280 1310,1213 1357,1135 1388,1047 1419,959 1434,859 1434,748 1434,635 1419,535 1388,447 1357,358 1310,280 1247,213 1175,136 1089,81 988,49 887,16 736,0 535,0 L 169,0 169,1493 Z"/>
+  </font>
+ </defs>
+ <defs>
+  <font id="EmbeddedFont_2" horiz-adv-x="2048">
+   <font-face font-family="DejaVu Sans Light embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="1879" descent="476"/>
+   <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
+   <glyph unicode="1" horiz-adv-x="847" d="M 304,82 L 634,82 634,1401 225,1237 225,1329 632,1493 734,1493 734,82 1064,82 1064,0 304,0 304,82 Z"/>
+   <glyph unicode="0" horiz-adv-x="953" d="M 645,1438 C 523,1438 432,1379 373,1260 314,1141 284,969 284,745 284,521 314,349 373,230 432,111 523,52 645,52 771,52 864,111 923,230 982,349 1012,521 1012,745 1012,969 982,1141 923,1260 864,1379 771,1438 645,1438 Z M 645,1520 C 789,1520 903,1461 987,1344 1071,1226 1113,1026 1113,745 1113,464 1071,264 987,146 903,29 789,-30 645,-30 505,-30 393,29 309,146 225,264 183,464 183,745 183,1026 225,1226 309,1344 393,1461 505,1520 645,1520 Z"/>
+   <glyph unicode="." horiz-adv-x="133" d="M 274,126 L 376,126 376,0 274,0 274,126 Z"/>
+  </font>
+ </defs>
+ <defs class="TextShapeIndex">
+  <g ooo:slide="id1" ooo:id-list="id3 id4 id5 id6 id7 id8 id9 id10 id11 id12 id13 id14 id15 id16 id17 id18 id19 id20 id21 id22 id23 id24 id25 id26 id27 id28 id29 id30 id31 id32 id33 id34 id35 id36 id37 id38 id39 id40 id41 id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52 id53 id54"/>
+ </defs>
+ <defs class="EmbeddedBulletChars">
+  <g id="bullet-char-template(57356)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/>
+  </g>
+  <g id="bullet-char-template(57354)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/>
+  </g>
+  <g id="bullet-char-template(10146)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/>
+  </g>
+  <g id="bullet-char-template(10132)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/>
+  </g>
+  <g id="bullet-char-template(10007)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/>
+  </g>
+  <g id="bullet-char-template(10004)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/>
+  </g>
+  <g id="bullet-char-template(9679)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/>
+  </g>
+  <g id="bullet-char-template(8226)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/>
+  </g>
+  <g id="bullet-char-template(8211)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/>
+  </g>
+ </defs>
+ <defs class="TextEmbeddedBitmaps"/>
+ <g>
+  <g id="id2" class="Master_Slide">
+   <g id="bg-id2" class="Background"/>
+   <g id="bo-id2" class="BackgroundObjects"/>
+  </g>
+ </g>
+ <g class="SlideGroup">
+  <g>
+   <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+    <g class="Page">
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id3">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Condensed, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="1885" y="5485"><tspan fill="rgb(0,0,0)" stroke="none">Master</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id4">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Condensed, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="1885" y="7709"><tspan fill="rgb(0,0,0)" stroke="none">Hotfix</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id5">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Condensed, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="1885" y="9930"><tspan fill="rgb(0,0,0)" stroke="none">Release</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id6">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Condensed, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="1885" y="12152"><tspan fill="rgb(0,0,0)" stroke="none">Develop</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id7">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Condensed, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="1885" y="14377"><tspan fill="rgb(0,0,0)" stroke="none">Feature</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id8">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Condensed, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="1885" y="16597"><tspan fill="rgb(0,0,0)" stroke="none">Feature</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.LineShape">
+      <g id="id9">
+       <defs>
+        <mask id="mask1">
+         <g>
+          <defs>
+           <linearGradient id="gradient1" x1="16914" y1="5181" x2="16914" y2="5232" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient1)" d="M 5498,5181 L 28331,5181 28331,5232 5498,5232 5498,5181 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask1)">
+        <path fill="none" stroke="rgb(204,204,204)" stroke-width="51" stroke-linejoin="round" d="M 5523,5206 L 28305,5206"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.LineShape">
+      <g id="id10">
+       <defs>
+        <mask id="mask2">
+         <g>
+          <defs>
+           <linearGradient id="gradient2" x1="16914" y1="7403" x2="16914" y2="7454" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient2)" d="M 5498,7403 L 28331,7403 28331,7454 5498,7454 5498,7403 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask2)">
+        <path fill="none" stroke="rgb(204,204,204)" stroke-width="51" stroke-linejoin="round" d="M 5523,7429 L 28305,7429"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.LineShape">
+      <g id="id11">
+       <defs>
+        <mask id="mask3">
+         <g>
+          <defs>
+           <linearGradient id="gradient3" x1="16914" y1="9626" x2="16914" y2="9677" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient3)" d="M 5498,9626 L 28331,9626 28331,9677 5498,9677 5498,9626 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask3)">
+        <path fill="none" stroke="rgb(204,204,204)" stroke-width="51" stroke-linejoin="round" d="M 5523,9651 L 28305,9651"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.LineShape">
+      <g id="id12">
+       <defs>
+        <mask id="mask4">
+         <g>
+          <defs>
+           <linearGradient id="gradient4" x1="16914" y1="11848" x2="16914" y2="11899" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient4)" d="M 5498,11848 L 28331,11848 28331,11899 5498,11899 5498,11848 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask4)">
+        <path fill="none" stroke="rgb(204,204,204)" stroke-width="51" stroke-linejoin="round" d="M 5523,11874 L 28305,11874"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.LineShape">
+      <g id="id13">
+       <defs>
+        <mask id="mask5">
+         <g>
+          <defs>
+           <linearGradient id="gradient5" x1="16914" y1="14071" x2="16914" y2="14122" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient5)" d="M 5498,14071 L 28331,14071 28331,14122 5498,14122 5498,14071 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask5)">
+        <path fill="none" stroke="rgb(204,204,204)" stroke-width="51" stroke-linejoin="round" d="M 5523,14096 L 28305,14096"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.LineShape">
+      <g id="id14">
+       <defs>
+        <mask id="mask6">
+         <g>
+          <defs>
+           <linearGradient id="gradient6" x1="16914" y1="16293" x2="16914" y2="16344" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient6)" d="M 5498,16293 L 28331,16293 28331,16344 5498,16344 5498,16293 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask6)">
+        <path fill="none" stroke="rgb(204,204,204)" stroke-width="51" stroke-linejoin="round" d="M 5523,16319 L 28305,16319"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id15">
+       <defs>
+        <mask id="mask7">
+         <g>
+          <defs>
+           <linearGradient id="gradient7" x1="6659" y1="4653" x2="6659" y2="5815" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient7)" d="M 6079,4653 L 7240,4653 7240,5815 6079,5815 6079,4653 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask7)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 6658,4678 C 6972,4678 7213,4919 7213,5233 7213,5547 6972,5788 6658,5788 6344,5788 6104,5547 6104,5233 6104,4919 6344,4678 6658,4678 Z M 6104,4678 L 6104,4678 Z M 7214,5789 L 7214,5789 Z"/>
+        <defs>
+         <mask id="mask8">
+          <g>
+           <defs>
+            <linearGradient id="gradient8" x1="6659" y1="4653" x2="6659" y2="5813" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient8)" d="M 6079,4653 L 7239,4653 7239,5813 6079,5813 6079,4653 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask8)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 6658,4678 C 6972,4678 7213,4919 7213,5233 7213,5547 6972,5788 6658,5788 6344,5788 6104,5547 6104,5233 6104,4919 6344,4678 6658,4678 Z"/>
+        </g>
+        <defs>
+         <mask id="mask9">
+          <g>
+           <defs>
+            <linearGradient id="gradient9" x1="6104" y1="4653" x2="6104" y2="4704" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient9)" d="M 6079,4653 L 6130,4653 6130,4704 6079,4704 6079,4653 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask9)"/>
+        <defs>
+         <mask id="mask10">
+          <g>
+           <defs>
+            <linearGradient id="gradient10" x1="7214" y1="5764" x2="7214" y2="5815" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient10)" d="M 7189,5764 L 7240,5764 7240,5815 7189,5815 7189,5764 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask10)"/>
+       </g>
+       <path fill="rgb(0,174,0)" stroke="none" d="M 6633,4653 C 6947,4653 7188,4894 7188,5208 7188,5522 6947,5763 6633,5763 6319,5763 6079,5522 6079,5208 6079,4894 6319,4653 6633,4653 Z M 6079,4653 L 6079,4653 Z M 7189,5764 L 7189,5764 Z"/>
+       <defs>
+        <mask id="mask11">
+         <g>
+          <defs>
+           <linearGradient id="gradient11" x1="6634" y1="4628" x2="6634" y2="5788" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient11)" d="M 6054,4628 L 7214,4628 7214,5788 6054,5788 6054,4628 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask11)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 6633,4653 C 6947,4653 7188,4894 7188,5208 7188,5522 6947,5763 6633,5763 6319,5763 6079,5522 6079,5208 6079,4894 6319,4653 6633,4653 Z"/>
+       </g>
+       <defs>
+        <mask id="mask12">
+         <g>
+          <defs>
+           <linearGradient id="gradient12" x1="6079" y1="4628" x2="6079" y2="4679" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient12)" d="M 6054,4628 L 6105,4628 6105,4679 6054,4679 6054,4628 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask12)"/>
+       <defs>
+        <mask id="mask13">
+         <g>
+          <defs>
+           <linearGradient id="gradient13" x1="7189" y1="5739" x2="7189" y2="5790" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient13)" d="M 7164,5739 L 7215,5739 7215,5790 7164,5790 7164,5739 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask13)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id16">
+       <defs>
+        <mask id="mask14">
+         <g>
+          <defs>
+           <linearGradient id="gradient14" x1="12217" y1="6876" x2="12217" y2="8036" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient14)" d="M 11637,6876 L 12798,6876 12798,8036 11637,8036 11637,6876 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask14)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 12216,6901 C 12530,6901 12771,7141 12771,7455 12771,7769 12530,8009 12216,8009 11902,8009 11662,7769 11662,7455 11662,7141 11902,6901 12216,6901 Z M 11662,6901 L 11662,6901 Z M 12772,8010 L 12772,8010 Z"/>
+        <defs>
+         <mask id="mask15">
+          <g>
+           <defs>
+            <linearGradient id="gradient15" x1="12217" y1="6876" x2="12217" y2="8034" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient15)" d="M 11637,6876 L 12797,6876 12797,8034 11637,8034 11637,6876 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask15)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 12216,6901 C 12530,6901 12771,7141 12771,7455 12771,7769 12530,8009 12216,8009 11902,8009 11662,7769 11662,7455 11662,7141 11902,6901 12216,6901 Z"/>
+        </g>
+        <defs>
+         <mask id="mask16">
+          <g>
+           <defs>
+            <linearGradient id="gradient16" x1="11662" y1="6876" x2="11662" y2="6927" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient16)" d="M 11637,6876 L 11688,6876 11688,6927 11637,6927 11637,6876 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask16)"/>
+        <defs>
+         <mask id="mask17">
+          <g>
+           <defs>
+            <linearGradient id="gradient17" x1="12772" y1="7985" x2="12772" y2="8036" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient17)" d="M 12747,7985 L 12798,7985 12798,8036 12747,8036 12747,7985 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask17)"/>
+       </g>
+       <path fill="rgb(255,0,0)" stroke="none" d="M 12191,6876 C 12505,6876 12746,7116 12746,7430 12746,7744 12505,7984 12191,7984 11877,7984 11637,7744 11637,7430 11637,7116 11877,6876 12191,6876 Z M 11637,6876 L 11637,6876 Z M 12747,7985 L 12747,7985 Z"/>
+       <defs>
+        <mask id="mask18">
+         <g>
+          <defs>
+           <linearGradient id="gradient18" x1="12192" y1="6851" x2="12192" y2="8009" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient18)" d="M 11612,6851 L 12772,6851 12772,8009 11612,8009 11612,6851 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask18)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 12191,6876 C 12505,6876 12746,7116 12746,7430 12746,7744 12505,7984 12191,7984 11877,7984 11637,7744 11637,7430 11637,7116 11877,6876 12191,6876 Z"/>
+       </g>
+       <defs>
+        <mask id="mask19">
+         <g>
+          <defs>
+           <linearGradient id="gradient19" x1="11637" y1="6851" x2="11637" y2="6902" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient19)" d="M 11612,6851 L 11663,6851 11663,6902 11612,6902 11612,6851 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask19)"/>
+       <defs>
+        <mask id="mask20">
+         <g>
+          <defs>
+           <linearGradient id="gradient20" x1="12747" y1="7960" x2="12747" y2="8011" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient20)" d="M 12722,7960 L 12773,7960 12773,8011 12722,8011 12722,7960 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask20)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id17">
+       <defs>
+        <mask id="mask21">
+         <g>
+          <defs>
+           <linearGradient id="gradient21" x1="19995" y1="9096" x2="19995" y2="10260" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient21)" d="M 19414,9096 L 20577,9096 20577,10260 19414,10260 19414,9096 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask21)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 19994,9121 C 20309,9121 20550,9362 20550,9677 20550,9992 20309,10233 19994,10233 19679,10233 19439,9992 19439,9677 19439,9362 19679,9121 19994,9121 Z M 19439,9121 L 19439,9121 Z M 20551,10234 L 20551,10234 Z"/>
+        <defs>
+         <mask id="mask22">
+          <g>
+           <defs>
+            <linearGradient id="gradient22" x1="19995" y1="9096" x2="19995" y2="10259" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient22)" d="M 19414,9096 L 20576,9096 20576,10259 19414,10259 19414,9096 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask22)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 19994,9121 C 20309,9121 20550,9362 20550,9677 20550,9992 20309,10233 19994,10233 19679,10233 19439,9992 19439,9677 19439,9362 19679,9121 19994,9121 Z"/>
+        </g>
+        <defs>
+         <mask id="mask23">
+          <g>
+           <defs>
+            <linearGradient id="gradient23" x1="19439" y1="9096" x2="19439" y2="9147" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient23)" d="M 19414,9096 L 19465,9096 19465,9147 19414,9147 19414,9096 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask23)"/>
+        <defs>
+         <mask id="mask24">
+          <g>
+           <defs>
+            <linearGradient id="gradient24" x1="20551" y1="10209" x2="20551" y2="10260" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient24)" d="M 20526,10209 L 20577,10209 20577,10260 20526,10260 20526,10209 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask24)"/>
+       </g>
+       <path fill="rgb(255,255,0)" stroke="none" d="M 19969,9096 C 20284,9096 20525,9337 20525,9652 20525,9967 20284,10208 19969,10208 19654,10208 19414,9967 19414,9652 19414,9337 19654,9096 19969,9096 Z M 19414,9096 L 19414,9096 Z M 20526,10209 L 20526,10209 Z"/>
+       <defs>
+        <mask id="mask25">
+         <g>
+          <defs>
+           <linearGradient id="gradient25" x1="19970" y1="9071" x2="19970" y2="10234" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient25)" d="M 19389,9071 L 20551,9071 20551,10234 19389,10234 19389,9071 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask25)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 19969,9096 C 20284,9096 20525,9337 20525,9652 20525,9967 20284,10208 19969,10208 19654,10208 19414,9967 19414,9652 19414,9337 19654,9096 19969,9096 Z"/>
+       </g>
+       <defs>
+        <mask id="mask26">
+         <g>
+          <defs>
+           <linearGradient id="gradient26" x1="19414" y1="9071" x2="19414" y2="9122" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient26)" d="M 19389,9071 L 19440,9071 19440,9122 19389,9122 19389,9071 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask26)"/>
+       <defs>
+        <mask id="mask27">
+         <g>
+          <defs>
+           <linearGradient id="gradient27" x1="20526" y1="10184" x2="20526" y2="10235" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient27)" d="M 20501,10184 L 20552,10184 20552,10235 20501,10235 20501,10184 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask27)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id18">
+       <defs>
+        <mask id="mask28">
+         <g>
+          <defs>
+           <linearGradient id="gradient28" x1="8883" y1="11319" x2="8883" y2="12483" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient28)" d="M 8302,11319 L 9465,11319 9465,12483 8302,12483 8302,11319 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask28)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 8882,11344 C 9197,11344 9438,11585 9438,11900 9438,12215 9197,12456 8882,12456 8567,12456 8327,12215 8327,11900 8327,11585 8567,11344 8882,11344 Z M 8327,11344 L 8327,11344 Z M 9439,12457 L 9439,12457 Z"/>
+        <defs>
+         <mask id="mask29">
+          <g>
+           <defs>
+            <linearGradient id="gradient29" x1="8883" y1="11319" x2="8883" y2="12482" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient29)" d="M 8302,11319 L 9464,11319 9464,12482 8302,12482 8302,11319 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask29)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 8882,11344 C 9197,11344 9438,11585 9438,11900 9438,12215 9197,12456 8882,12456 8567,12456 8327,12215 8327,11900 8327,11585 8567,11344 8882,11344 Z"/>
+        </g>
+        <defs>
+         <mask id="mask30">
+          <g>
+           <defs>
+            <linearGradient id="gradient30" x1="8327" y1="11319" x2="8327" y2="11370" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient30)" d="M 8302,11319 L 8353,11319 8353,11370 8302,11370 8302,11319 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask30)"/>
+        <defs>
+         <mask id="mask31">
+          <g>
+           <defs>
+            <linearGradient id="gradient31" x1="9439" y1="12432" x2="9439" y2="12483" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient31)" d="M 9414,12432 L 9465,12432 9465,12483 9414,12483 9414,12432 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask31)"/>
+       </g>
+       <path fill="rgb(255,149,14)" stroke="none" d="M 8857,11319 C 9172,11319 9413,11560 9413,11875 9413,12190 9172,12431 8857,12431 8542,12431 8302,12190 8302,11875 8302,11560 8542,11319 8857,11319 Z M 8302,11319 L 8302,11319 Z M 9414,12432 L 9414,12432 Z"/>
+       <defs>
+        <mask id="mask32">
+         <g>
+          <defs>
+           <linearGradient id="gradient32" x1="8858" y1="11294" x2="8858" y2="12457" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient32)" d="M 8277,11294 L 9439,11294 9439,12457 8277,12457 8277,11294 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask32)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 8857,11319 C 9172,11319 9413,11560 9413,11875 9413,12190 9172,12431 8857,12431 8542,12431 8302,12190 8302,11875 8302,11560 8542,11319 8857,11319 Z"/>
+       </g>
+       <defs>
+        <mask id="mask33">
+         <g>
+          <defs>
+           <linearGradient id="gradient33" x1="8302" y1="11294" x2="8302" y2="11345" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient33)" d="M 8277,11294 L 8328,11294 8328,11345 8277,11345 8277,11294 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask33)"/>
+       <defs>
+        <mask id="mask34">
+         <g>
+          <defs>
+           <linearGradient id="gradient34" x1="9414" y1="12407" x2="9414" y2="12458" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient34)" d="M 9389,12407 L 9440,12407 9440,12458 9389,12458 9389,12407 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask34)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id19">
+       <defs>
+        <mask id="mask35">
+         <g>
+          <defs>
+           <linearGradient id="gradient35" x1="12216" y1="13540" x2="12216" y2="14704" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient35)" d="M 11635,13540 L 12798,13540 12798,14704 11635,14704 11635,13540 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask35)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 12215,13565 C 12530,13565 12771,13806 12771,14121 12771,14436 12530,14677 12215,14677 11900,14677 11660,14436 11660,14121 11660,13806 11900,13565 12215,13565 Z M 11660,13565 L 11660,13565 Z M 12772,14678 L 12772,14678 Z"/>
+        <defs>
+         <mask id="mask36">
+          <g>
+           <defs>
+            <linearGradient id="gradient36" x1="12216" y1="13540" x2="12216" y2="14703" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient36)" d="M 11635,13540 L 12797,13540 12797,14703 11635,14703 11635,13540 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask36)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 12215,13565 C 12530,13565 12771,13806 12771,14121 12771,14436 12530,14677 12215,14677 11900,14677 11660,14436 11660,14121 11660,13806 11900,13565 12215,13565 Z"/>
+        </g>
+        <defs>
+         <mask id="mask37">
+          <g>
+           <defs>
+            <linearGradient id="gradient37" x1="11660" y1="13540" x2="11660" y2="13591" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient37)" d="M 11635,13540 L 11686,13540 11686,13591 11635,13591 11635,13540 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask37)"/>
+        <defs>
+         <mask id="mask38">
+          <g>
+           <defs>
+            <linearGradient id="gradient38" x1="12772" y1="14653" x2="12772" y2="14704" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient38)" d="M 12747,14653 L 12798,14653 12798,14704 12747,14704 12747,14653 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask38)"/>
+       </g>
+       <path fill="rgb(0,71,255)" stroke="none" d="M 12190,13540 C 12505,13540 12746,13781 12746,14096 12746,14411 12505,14652 12190,14652 11875,14652 11635,14411 11635,14096 11635,13781 11875,13540 12190,13540 Z M 11635,13540 L 11635,13540 Z M 12747,14653 L 12747,14653 Z"/>
+       <defs>
+        <mask id="mask39">
+         <g>
+          <defs>
+           <linearGradient id="gradient39" x1="12191" y1="13515" x2="12191" y2="14678" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient39)" d="M 11610,13515 L 12772,13515 12772,14678 11610,14678 11610,13515 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask39)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 12190,13540 C 12505,13540 12746,13781 12746,14096 12746,14411 12505,14652 12190,14652 11875,14652 11635,14411 11635,14096 11635,13781 11875,13540 12190,13540 Z"/>
+       </g>
+       <defs>
+        <mask id="mask40">
+         <g>
+          <defs>
+           <linearGradient id="gradient40" x1="11635" y1="13515" x2="11635" y2="13566" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient40)" d="M 11610,13515 L 11661,13515 11661,13566 11610,13566 11610,13515 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask40)"/>
+       <defs>
+        <mask id="mask41">
+         <g>
+          <defs>
+           <linearGradient id="gradient41" x1="12747" y1="14628" x2="12747" y2="14679" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient41)" d="M 12722,14628 L 12773,14628 12773,14679 12722,14679 12722,14628 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask41)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id20">
+       <defs>
+        <mask id="mask42">
+         <g>
+          <defs>
+           <linearGradient id="gradient42" x1="12216" y1="15763" x2="12216" y2="16927" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient42)" d="M 11635,15763 L 12798,15763 12798,16927 11635,16927 11635,15763 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask42)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 12215,15788 C 12530,15788 12771,16029 12771,16344 12771,16659 12530,16900 12215,16900 11900,16900 11660,16659 11660,16344 11660,16029 11900,15788 12215,15788 Z M 11660,15788 L 11660,15788 Z M 12772,16901 L 12772,16901 Z"/>
+        <defs>
+         <mask id="mask43">
+          <g>
+           <defs>
+            <linearGradient id="gradient43" x1="12216" y1="15763" x2="12216" y2="16926" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient43)" d="M 11635,15763 L 12797,15763 12797,16926 11635,16926 11635,15763 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask43)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 12215,15788 C 12530,15788 12771,16029 12771,16344 12771,16659 12530,16900 12215,16900 11900,16900 11660,16659 11660,16344 11660,16029 11900,15788 12215,15788 Z"/>
+        </g>
+        <defs>
+         <mask id="mask44">
+          <g>
+           <defs>
+            <linearGradient id="gradient44" x1="11660" y1="15763" x2="11660" y2="15814" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient44)" d="M 11635,15763 L 11686,15763 11686,15814 11635,15814 11635,15763 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask44)"/>
+        <defs>
+         <mask id="mask45">
+          <g>
+           <defs>
+            <linearGradient id="gradient45" x1="12772" y1="16876" x2="12772" y2="16927" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient45)" d="M 12747,16876 L 12798,16876 12798,16927 12747,16927 12747,16876 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask45)"/>
+       </g>
+       <path fill="rgb(0,220,255)" stroke="none" d="M 12190,15763 C 12505,15763 12746,16004 12746,16319 12746,16634 12505,16875 12190,16875 11875,16875 11635,16634 11635,16319 11635,16004 11875,15763 12190,15763 Z M 11635,15763 L 11635,15763 Z M 12747,16876 L 12747,16876 Z"/>
+       <defs>
+        <mask id="mask46">
+         <g>
+          <defs>
+           <linearGradient id="gradient46" x1="12191" y1="15738" x2="12191" y2="16901" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient46)" d="M 11610,15738 L 12772,15738 12772,16901 11610,16901 11610,15738 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask46)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 12190,15763 C 12505,15763 12746,16004 12746,16319 12746,16634 12505,16875 12190,16875 11875,16875 11635,16634 11635,16319 11635,16004 11875,15763 12190,15763 Z"/>
+       </g>
+       <defs>
+        <mask id="mask47">
+         <g>
+          <defs>
+           <linearGradient id="gradient47" x1="11635" y1="15738" x2="11635" y2="15789" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient47)" d="M 11610,15738 L 11661,15738 11661,15789 11610,15789 11610,15738 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask47)"/>
+       <defs>
+        <mask id="mask48">
+         <g>
+          <defs>
+           <linearGradient id="gradient48" x1="12747" y1="16851" x2="12747" y2="16902" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient48)" d="M 12722,16851 L 12773,16851 12773,16902 12722,16902 12722,16851 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask48)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id21">
+       <defs>
+        <mask id="mask49">
+         <g>
+          <defs>
+           <linearGradient id="gradient49" x1="7721" y1="5712" x2="7721" y2="11319" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient49)" d="M 6584,5712 L 8859,5712 8859,11319 6584,11319 6584,5712 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask49)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 6635,5763 L 8737,11014"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 8859,11319 L 8838,10958 8625,11043 8859,11319 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id22">
+       <defs>
+        <mask id="mask50">
+         <g>
+          <defs>
+           <linearGradient id="gradient50" x1="10499" y1="12218" x2="10499" y2="13702" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient50)" d="M 9201,12218 L 11798,12218 11798,13702 9201,13702 9201,12218 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask50)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 9252,12269 L 11512,13541"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 11798,13702 L 11555,13434 11442,13633 11798,13702 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id23">
+       <defs>
+        <mask id="mask51">
+         <g>
+          <defs>
+           <linearGradient id="gradient51" x1="14439" y1="13540" x2="14439" y2="14704" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient51)" d="M 13858,13540 L 15021,13540 15021,14704 13858,14704 13858,13540 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask51)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 14438,13565 C 14753,13565 14994,13806 14994,14121 14994,14436 14753,14677 14438,14677 14123,14677 13883,14436 13883,14121 13883,13806 14123,13565 14438,13565 Z M 13883,13565 L 13883,13565 Z M 14995,14678 L 14995,14678 Z"/>
+        <defs>
+         <mask id="mask52">
+          <g>
+           <defs>
+            <linearGradient id="gradient52" x1="14439" y1="13540" x2="14439" y2="14703" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient52)" d="M 13858,13540 L 15020,13540 15020,14703 13858,14703 13858,13540 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask52)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 14438,13565 C 14753,13565 14994,13806 14994,14121 14994,14436 14753,14677 14438,14677 14123,14677 13883,14436 13883,14121 13883,13806 14123,13565 14438,13565 Z"/>
+        </g>
+        <defs>
+         <mask id="mask53">
+          <g>
+           <defs>
+            <linearGradient id="gradient53" x1="13883" y1="13540" x2="13883" y2="13591" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient53)" d="M 13858,13540 L 13909,13540 13909,13591 13858,13591 13858,13540 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask53)"/>
+        <defs>
+         <mask id="mask54">
+          <g>
+           <defs>
+            <linearGradient id="gradient54" x1="14995" y1="14653" x2="14995" y2="14704" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient54)" d="M 14970,14653 L 15021,14653 15021,14704 14970,14704 14970,14653 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask54)"/>
+       </g>
+       <path fill="rgb(0,71,255)" stroke="none" d="M 14413,13540 C 14728,13540 14969,13781 14969,14096 14969,14411 14728,14652 14413,14652 14098,14652 13858,14411 13858,14096 13858,13781 14098,13540 14413,13540 Z M 13858,13540 L 13858,13540 Z M 14970,14653 L 14970,14653 Z"/>
+       <defs>
+        <mask id="mask55">
+         <g>
+          <defs>
+           <linearGradient id="gradient55" x1="14414" y1="13515" x2="14414" y2="14678" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient55)" d="M 13833,13515 L 14995,13515 14995,14678 13833,14678 13833,13515 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask55)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 14413,13540 C 14728,13540 14969,13781 14969,14096 14969,14411 14728,14652 14413,14652 14098,14652 13858,14411 13858,14096 13858,13781 14098,13540 14413,13540 Z"/>
+       </g>
+       <defs>
+        <mask id="mask56">
+         <g>
+          <defs>
+           <linearGradient id="gradient56" x1="13858" y1="13515" x2="13858" y2="13566" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient56)" d="M 13833,13515 L 13884,13515 13884,13566 13833,13566 13833,13515 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask56)"/>
+       <defs>
+        <mask id="mask57">
+         <g>
+          <defs>
+           <linearGradient id="gradient57" x1="14970" y1="14628" x2="14970" y2="14679" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient57)" d="M 14945,14628 L 14996,14628 14996,14679 14945,14679 14945,14628 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask57)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id24">
+       <defs>
+        <mask id="mask58">
+         <g>
+          <defs>
+           <linearGradient id="gradient58" x1="16662" y1="13540" x2="16662" y2="14704" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient58)" d="M 16081,13540 L 17244,13540 17244,14704 16081,14704 16081,13540 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask58)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 16661,13565 C 16976,13565 17217,13806 17217,14121 17217,14436 16976,14677 16661,14677 16346,14677 16106,14436 16106,14121 16106,13806 16346,13565 16661,13565 Z M 16106,13565 L 16106,13565 Z M 17218,14678 L 17218,14678 Z"/>
+        <defs>
+         <mask id="mask59">
+          <g>
+           <defs>
+            <linearGradient id="gradient59" x1="16662" y1="13540" x2="16662" y2="14703" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient59)" d="M 16081,13540 L 17243,13540 17243,14703 16081,14703 16081,13540 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask59)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 16661,13565 C 16976,13565 17217,13806 17217,14121 17217,14436 16976,14677 16661,14677 16346,14677 16106,14436 16106,14121 16106,13806 16346,13565 16661,13565 Z"/>
+        </g>
+        <defs>
+         <mask id="mask60">
+          <g>
+           <defs>
+            <linearGradient id="gradient60" x1="16106" y1="13540" x2="16106" y2="13591" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient60)" d="M 16081,13540 L 16132,13540 16132,13591 16081,13591 16081,13540 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask60)"/>
+        <defs>
+         <mask id="mask61">
+          <g>
+           <defs>
+            <linearGradient id="gradient61" x1="17218" y1="14653" x2="17218" y2="14704" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient61)" d="M 17193,14653 L 17244,14653 17244,14704 17193,14704 17193,14653 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask61)"/>
+       </g>
+       <path fill="rgb(0,71,255)" stroke="none" d="M 16636,13540 C 16951,13540 17192,13781 17192,14096 17192,14411 16951,14652 16636,14652 16321,14652 16081,14411 16081,14096 16081,13781 16321,13540 16636,13540 Z M 16081,13540 L 16081,13540 Z M 17193,14653 L 17193,14653 Z"/>
+       <defs>
+        <mask id="mask62">
+         <g>
+          <defs>
+           <linearGradient id="gradient62" x1="16637" y1="13515" x2="16637" y2="14678" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient62)" d="M 16056,13515 L 17218,13515 17218,14678 16056,14678 16056,13515 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask62)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 16636,13540 C 16951,13540 17192,13781 17192,14096 17192,14411 16951,14652 16636,14652 16321,14652 16081,14411 16081,14096 16081,13781 16321,13540 16636,13540 Z"/>
+       </g>
+       <defs>
+        <mask id="mask63">
+         <g>
+          <defs>
+           <linearGradient id="gradient63" x1="16081" y1="13515" x2="16081" y2="13566" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient63)" d="M 16056,13515 L 16107,13515 16107,13566 16056,13566 16056,13515 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask63)"/>
+       <defs>
+        <mask id="mask64">
+         <g>
+          <defs>
+           <linearGradient id="gradient64" x1="17193" y1="14628" x2="17193" y2="14679" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient64)" d="M 17168,14628 L 17219,14628 17219,14679 17168,14679 17168,14628 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask64)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id25">
+       <defs>
+        <mask id="mask65">
+         <g>
+          <defs>
+           <linearGradient id="gradient65" x1="13277" y1="13982" x2="13277" y2="14211" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient65)" d="M 12696,13982 L 13859,13982 13859,14211 12696,14211 12696,13982 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask65)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 12747,14096 L 13531,14096"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 13859,14096 L 13516,13982 13516,14211 13859,14096 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id26">
+       <defs>
+        <mask id="mask66">
+         <g>
+          <defs>
+           <linearGradient id="gradient66" x1="15500" y1="13982" x2="15500" y2="14211" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient66)" d="M 14919,13982 L 16082,13982 16082,14211 14919,14211 14919,13982 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask66)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 14970,14096 L 15754,14096"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 16082,14096 L 15739,13982 15739,14211 16082,14096 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id27">
+       <defs>
+        <mask id="mask67">
+         <g>
+          <defs>
+           <linearGradient id="gradient67" x1="18328" y1="11319" x2="18328" y2="12483" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient67)" d="M 17746,11319 L 18910,11319 18910,12483 17746,12483 17746,11319 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask67)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 18327,11344 C 18642,11344 18883,11585 18883,11900 18883,12215 18642,12456 18327,12456 18012,12456 17771,12215 17771,11900 17771,11585 18012,11344 18327,11344 Z M 17771,11344 L 17771,11344 Z M 18884,12457 L 18884,12457 Z"/>
+        <defs>
+         <mask id="mask68">
+          <g>
+           <defs>
+            <linearGradient id="gradient68" x1="18327" y1="11319" x2="18327" y2="12482" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient68)" d="M 17746,11319 L 18909,11319 18909,12482 17746,12482 17746,11319 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask68)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 18327,11344 C 18642,11344 18883,11585 18883,11900 18883,12215 18642,12456 18327,12456 18012,12456 17771,12215 17771,11900 17771,11585 18012,11344 18327,11344 Z"/>
+        </g>
+        <defs>
+         <mask id="mask69">
+          <g>
+           <defs>
+            <linearGradient id="gradient69" x1="17771" y1="11319" x2="17771" y2="11370" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient69)" d="M 17746,11319 L 17797,11319 17797,11370 17746,11370 17746,11319 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask69)"/>
+        <defs>
+         <mask id="mask70">
+          <g>
+           <defs>
+            <linearGradient id="gradient70" x1="18884" y1="12432" x2="18884" y2="12483" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient70)" d="M 18859,12432 L 18910,12432 18910,12483 18859,12483 18859,12432 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask70)"/>
+       </g>
+       <path fill="rgb(255,149,14)" stroke="none" d="M 18302,11319 C 18617,11319 18858,11560 18858,11875 18858,12190 18617,12431 18302,12431 17987,12431 17746,12190 17746,11875 17746,11560 17987,11319 18302,11319 Z M 17746,11319 L 17746,11319 Z M 18859,12432 L 18859,12432 Z"/>
+       <defs>
+        <mask id="mask71">
+         <g>
+          <defs>
+           <linearGradient id="gradient71" x1="18302" y1="11294" x2="18302" y2="12457" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient71)" d="M 17721,11294 L 18884,11294 18884,12457 17721,12457 17721,11294 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask71)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 18302,11319 C 18617,11319 18858,11560 18858,11875 18858,12190 18617,12431 18302,12431 17987,12431 17746,12190 17746,11875 17746,11560 17987,11319 18302,11319 Z"/>
+       </g>
+       <defs>
+        <mask id="mask72">
+         <g>
+          <defs>
+           <linearGradient id="gradient72" x1="17746" y1="11294" x2="17746" y2="11345" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient72)" d="M 17721,11294 L 17772,11294 17772,11345 17721,11345 17721,11294 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask72)"/>
+       <defs>
+        <mask id="mask73">
+         <g>
+          <defs>
+           <linearGradient id="gradient73" x1="18859" y1="12407" x2="18859" y2="12458" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient73)" d="M 18834,12407 L 18885,12407 18885,12458 18834,12458 18834,12407 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask73)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id28">
+       <defs>
+        <mask id="mask74">
+         <g>
+          <defs>
+           <linearGradient id="gradient74" x1="17444" y1="12269" x2="17444" y2="13753" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient74)" d="M 16980,12269 L 17908,12269 17908,13753 16980,13753 16980,12269 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask74)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 17031,13702 L 17737,12549"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 17908,12269 L 17631,12502 17826,12622 17908,12269 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id29">
+       <defs>
+        <mask id="mask75">
+         <g>
+          <defs>
+           <linearGradient id="gradient75" x1="14439" y1="11319" x2="14439" y2="12483" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient75)" d="M 13858,11319 L 15021,11319 15021,12483 13858,12483 13858,11319 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask75)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 14438,11344 C 14753,11344 14994,11585 14994,11900 14994,12215 14753,12456 14438,12456 14123,12456 13883,12215 13883,11900 13883,11585 14123,11344 14438,11344 Z M 13883,11344 L 13883,11344 Z M 14995,12457 L 14995,12457 Z"/>
+        <defs>
+         <mask id="mask76">
+          <g>
+           <defs>
+            <linearGradient id="gradient76" x1="14439" y1="11319" x2="14439" y2="12482" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient76)" d="M 13858,11319 L 15020,11319 15020,12482 13858,12482 13858,11319 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask76)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 14438,11344 C 14753,11344 14994,11585 14994,11900 14994,12215 14753,12456 14438,12456 14123,12456 13883,12215 13883,11900 13883,11585 14123,11344 14438,11344 Z"/>
+        </g>
+        <defs>
+         <mask id="mask77">
+          <g>
+           <defs>
+            <linearGradient id="gradient77" x1="13883" y1="11319" x2="13883" y2="11370" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient77)" d="M 13858,11319 L 13909,11319 13909,11370 13858,11370 13858,11319 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask77)"/>
+        <defs>
+         <mask id="mask78">
+          <g>
+           <defs>
+            <linearGradient id="gradient78" x1="14995" y1="12432" x2="14995" y2="12483" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient78)" d="M 14970,12432 L 15021,12432 15021,12483 14970,12483 14970,12432 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask78)"/>
+       </g>
+       <path fill="rgb(255,149,14)" stroke="none" d="M 14413,11319 C 14728,11319 14969,11560 14969,11875 14969,12190 14728,12431 14413,12431 14098,12431 13858,12190 13858,11875 13858,11560 14098,11319 14413,11319 Z M 13858,11319 L 13858,11319 Z M 14970,12432 L 14970,12432 Z"/>
+       <defs>
+        <mask id="mask79">
+         <g>
+          <defs>
+           <linearGradient id="gradient79" x1="14414" y1="11294" x2="14414" y2="12457" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient79)" d="M 13833,11294 L 14995,11294 14995,12457 13833,12457 13833,11294 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask79)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 14413,11319 C 14728,11319 14969,11560 14969,11875 14969,12190 14728,12431 14413,12431 14098,12431 13858,12190 13858,11875 13858,11560 14098,11319 14413,11319 Z"/>
+       </g>
+       <defs>
+        <mask id="mask80">
+         <g>
+          <defs>
+           <linearGradient id="gradient80" x1="13858" y1="11294" x2="13858" y2="11345" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient80)" d="M 13833,11294 L 13884,11294 13884,11345 13833,11345 13833,11294 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask80)"/>
+       <defs>
+        <mask id="mask81">
+         <g>
+          <defs>
+           <linearGradient id="gradient81" x1="14970" y1="12407" x2="14970" y2="12458" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient81)" d="M 14945,12407 L 14996,12407 14996,12458 14945,12458 14945,12407 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask81)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id30">
+       <defs>
+        <mask id="mask82">
+         <g>
+          <defs>
+           <linearGradient id="gradient82" x1="14438" y1="4653" x2="14438" y2="5815" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient82)" d="M 13858,4653 L 15019,4653 15019,5815 13858,5815 13858,4653 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask82)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 14437,4678 C 14751,4678 14992,4919 14992,5233 14992,5547 14751,5788 14437,5788 14123,5788 13883,5547 13883,5233 13883,4919 14123,4678 14437,4678 Z M 13883,4678 L 13883,4678 Z M 14993,5789 L 14993,5789 Z"/>
+        <defs>
+         <mask id="mask83">
+          <g>
+           <defs>
+            <linearGradient id="gradient83" x1="14437" y1="4653" x2="14437" y2="5813" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient83)" d="M 13858,4653 L 15017,4653 15017,5813 13858,5813 13858,4653 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask83)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 14437,4678 C 14751,4678 14992,4919 14992,5233 14992,5547 14751,5788 14437,5788 14123,5788 13883,5547 13883,5233 13883,4919 14123,4678 14437,4678 Z"/>
+        </g>
+        <defs>
+         <mask id="mask84">
+          <g>
+           <defs>
+            <linearGradient id="gradient84" x1="13883" y1="4653" x2="13883" y2="4704" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient84)" d="M 13858,4653 L 13909,4653 13909,4704 13858,4704 13858,4653 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask84)"/>
+        <defs>
+         <mask id="mask85">
+          <g>
+           <defs>
+            <linearGradient id="gradient85" x1="14993" y1="5764" x2="14993" y2="5815" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient85)" d="M 14968,5764 L 15019,5764 15019,5815 14968,5815 14968,5764 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask85)"/>
+       </g>
+       <path fill="rgb(0,174,0)" stroke="none" d="M 14412,4653 C 14726,4653 14967,4894 14967,5208 14967,5522 14726,5763 14412,5763 14098,5763 13858,5522 13858,5208 13858,4894 14098,4653 14412,4653 Z M 13858,4653 L 13858,4653 Z M 14968,5764 L 14968,5764 Z"/>
+       <defs>
+        <mask id="mask86">
+         <g>
+          <defs>
+           <linearGradient id="gradient86" x1="14412" y1="4628" x2="14412" y2="5788" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient86)" d="M 13833,4628 L 14992,4628 14992,5788 13833,5788 13833,4628 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask86)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 14412,4653 C 14726,4653 14967,4894 14967,5208 14967,5522 14726,5763 14412,5763 14098,5763 13858,5522 13858,5208 13858,4894 14098,4653 14412,4653 Z"/>
+       </g>
+       <defs>
+        <mask id="mask87">
+         <g>
+          <defs>
+           <linearGradient id="gradient87" x1="13858" y1="4628" x2="13858" y2="4679" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient87)" d="M 13833,4628 L 13884,4628 13884,4679 13833,4679 13833,4628 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask87)"/>
+       <defs>
+        <mask id="mask88">
+         <g>
+          <defs>
+           <linearGradient id="gradient88" x1="14968" y1="5739" x2="14968" y2="5790" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient88)" d="M 14943,5739 L 14994,5739 14994,5790 14943,5790 14943,5739 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask88)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id31">
+       <defs>
+        <mask id="mask89">
+         <g>
+          <defs>
+           <linearGradient id="gradient89" x1="13081" y1="7933" x2="13081" y2="11481" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient89)" d="M 12142,7933 L 14021,7933 14021,11481 12142,11481 12142,7933 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask89)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 12193,7984 L 13869,11190"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 14021,11481 L 13963,11124 13760,11230 14021,11481 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id32">
+       <defs>
+        <mask id="mask90">
+         <g>
+          <defs>
+           <linearGradient id="gradient90" x1="13277" y1="5601" x2="13277" y2="7089" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient90)" d="M 12534,5601 L 14021,5601 14021,7089 12534,7089 12534,5601 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask90)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 12585,7038 L 13789,5833"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 14021,5601 L 13697,5763 13859,5925 14021,5601 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id33">
+       <defs>
+        <mask id="mask91">
+         <g>
+          <defs>
+           <linearGradient id="gradient91" x1="16332" y1="11761" x2="16332" y2="11990" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient91)" d="M 14919,11761 L 17746,11761 17746,11990 14919,11990 14919,11761 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask91)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 14970,11875 L 17418,11875"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 17746,11875 L 17403,11761 17403,11990 17746,11875 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id34">
+       <defs>
+        <mask id="mask92">
+         <g>
+          <defs>
+           <linearGradient id="gradient92" x1="19111" y1="10046" x2="19111" y2="11532" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient92)" d="M 18645,10046 L 19577,10046 19577,11532 18645,11532 18645,10046 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask92)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 18696,11481 L 19405,10326"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 19577,10046 L 19300,10279 19495,10399 19577,10046 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id35">
+       <defs>
+        <mask id="mask93">
+         <g>
+          <defs>
+           <linearGradient id="gradient93" x1="22773" y1="9096" x2="22773" y2="10260" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient93)" d="M 22192,9096 L 23355,9096 23355,10260 22192,10260 22192,9096 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask93)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 22772,9121 C 23087,9121 23328,9362 23328,9677 23328,9992 23087,10233 22772,10233 22457,10233 22217,9992 22217,9677 22217,9362 22457,9121 22772,9121 Z M 22217,9121 L 22217,9121 Z M 23329,10234 L 23329,10234 Z"/>
+        <defs>
+         <mask id="mask94">
+          <g>
+           <defs>
+            <linearGradient id="gradient94" x1="22773" y1="9096" x2="22773" y2="10259" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient94)" d="M 22192,9096 L 23354,9096 23354,10259 22192,10259 22192,9096 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask94)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 22772,9121 C 23087,9121 23328,9362 23328,9677 23328,9992 23087,10233 22772,10233 22457,10233 22217,9992 22217,9677 22217,9362 22457,9121 22772,9121 Z"/>
+        </g>
+        <defs>
+         <mask id="mask95">
+          <g>
+           <defs>
+            <linearGradient id="gradient95" x1="22217" y1="9096" x2="22217" y2="9147" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient95)" d="M 22192,9096 L 22243,9096 22243,9147 22192,9147 22192,9096 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask95)"/>
+        <defs>
+         <mask id="mask96">
+          <g>
+           <defs>
+            <linearGradient id="gradient96" x1="23329" y1="10209" x2="23329" y2="10260" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient96)" d="M 23304,10209 L 23355,10209 23355,10260 23304,10260 23304,10209 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask96)"/>
+       </g>
+       <path fill="rgb(255,255,0)" stroke="none" d="M 22747,9096 C 23062,9096 23303,9337 23303,9652 23303,9967 23062,10208 22747,10208 22432,10208 22192,9967 22192,9652 22192,9337 22432,9096 22747,9096 Z M 22192,9096 L 22192,9096 Z M 23304,10209 L 23304,10209 Z"/>
+       <defs>
+        <mask id="mask97">
+         <g>
+          <defs>
+           <linearGradient id="gradient97" x1="22748" y1="9071" x2="22748" y2="10234" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient97)" d="M 22167,9071 L 23329,9071 23329,10234 22167,10234 22167,9071 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask97)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 22747,9096 C 23062,9096 23303,9337 23303,9652 23303,9967 23062,10208 22747,10208 22432,10208 22192,9967 22192,9652 22192,9337 22432,9096 22747,9096 Z"/>
+       </g>
+       <defs>
+        <mask id="mask98">
+         <g>
+          <defs>
+           <linearGradient id="gradient98" x1="22192" y1="9071" x2="22192" y2="9122" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient98)" d="M 22167,9071 L 22218,9071 22218,9122 22167,9122 22167,9071 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask98)"/>
+       <defs>
+        <mask id="mask99">
+         <g>
+          <defs>
+           <linearGradient id="gradient99" x1="23304" y1="10184" x2="23304" y2="10235" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient99)" d="M 23279,10184 L 23330,10184 23330,10235 23279,10235 23279,10184 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask99)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id36">
+       <defs>
+        <mask id="mask100">
+         <g>
+          <defs>
+           <linearGradient id="gradient100" x1="25551" y1="11319" x2="25551" y2="12483" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient100)" d="M 24970,11319 L 26133,11319 26133,12483 24970,12483 24970,11319 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask100)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 25550,11344 C 25865,11344 26106,11585 26106,11900 26106,12215 25865,12456 25550,12456 25235,12456 24995,12215 24995,11900 24995,11585 25235,11344 25550,11344 Z M 24995,11344 L 24995,11344 Z M 26107,12457 L 26107,12457 Z"/>
+        <defs>
+         <mask id="mask101">
+          <g>
+           <defs>
+            <linearGradient id="gradient101" x1="25551" y1="11319" x2="25551" y2="12482" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient101)" d="M 24970,11319 L 26132,11319 26132,12482 24970,12482 24970,11319 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask101)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 25550,11344 C 25865,11344 26106,11585 26106,11900 26106,12215 25865,12456 25550,12456 25235,12456 24995,12215 24995,11900 24995,11585 25235,11344 25550,11344 Z"/>
+        </g>
+        <defs>
+         <mask id="mask102">
+          <g>
+           <defs>
+            <linearGradient id="gradient102" x1="24995" y1="11319" x2="24995" y2="11370" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient102)" d="M 24970,11319 L 25021,11319 25021,11370 24970,11370 24970,11319 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask102)"/>
+        <defs>
+         <mask id="mask103">
+          <g>
+           <defs>
+            <linearGradient id="gradient103" x1="26107" y1="12432" x2="26107" y2="12483" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient103)" d="M 26082,12432 L 26133,12432 26133,12483 26082,12483 26082,12432 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask103)"/>
+       </g>
+       <path fill="rgb(255,149,14)" stroke="none" d="M 25525,11319 C 25840,11319 26081,11560 26081,11875 26081,12190 25840,12431 25525,12431 25210,12431 24970,12190 24970,11875 24970,11560 25210,11319 25525,11319 Z M 24970,11319 L 24970,11319 Z M 26082,12432 L 26082,12432 Z"/>
+       <defs>
+        <mask id="mask104">
+         <g>
+          <defs>
+           <linearGradient id="gradient104" x1="25526" y1="11294" x2="25526" y2="12457" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient104)" d="M 24945,11294 L 26107,11294 26107,12457 24945,12457 24945,11294 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask104)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 25525,11319 C 25840,11319 26081,11560 26081,11875 26081,12190 25840,12431 25525,12431 25210,12431 24970,12190 24970,11875 24970,11560 25210,11319 25525,11319 Z"/>
+       </g>
+       <defs>
+        <mask id="mask105">
+         <g>
+          <defs>
+           <linearGradient id="gradient105" x1="24970" y1="11294" x2="24970" y2="11345" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient105)" d="M 24945,11294 L 24996,11294 24996,11345 24945,11345 24945,11294 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask105)"/>
+       <defs>
+        <mask id="mask106">
+         <g>
+          <defs>
+           <linearGradient id="gradient106" x1="26082" y1="12407" x2="26082" y2="12458" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient106)" d="M 26057,12407 L 26108,12407 26108,12458 26057,12458 26057,12407 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask106)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id37">
+       <defs>
+        <mask id="mask107">
+         <g>
+          <defs>
+           <linearGradient id="gradient107" x1="21334" y1="9538" x2="21334" y2="9767" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient107)" d="M 20475,9538 L 22193,9538 22193,9767 20475,9767 20475,9538 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask107)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 20526,9652 L 21865,9652"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 22193,9652 L 21850,9538 21850,9767 22193,9652 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id38">
+       <defs>
+        <mask id="mask108">
+         <g>
+          <defs>
+           <linearGradient id="gradient108" x1="24112" y1="9995" x2="24112" y2="11481" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient108)" d="M 23091,9995 L 25133,9995 25133,11481 23091,11481 23091,9995 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask108)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 23142,10046 L 24867,11289"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 25133,11481 L 24921,11187 24787,11373 25133,11481 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id39">
+       <defs>
+        <mask id="mask109">
+         <g>
+          <defs>
+           <linearGradient id="gradient109" x1="14439" y1="15763" x2="14439" y2="16927" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient109)" d="M 13858,15763 L 15021,15763 15021,16927 13858,16927 13858,15763 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask109)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 14438,15788 C 14753,15788 14994,16029 14994,16344 14994,16659 14753,16900 14438,16900 14123,16900 13883,16659 13883,16344 13883,16029 14123,15788 14438,15788 Z M 13883,15788 L 13883,15788 Z M 14995,16901 L 14995,16901 Z"/>
+        <defs>
+         <mask id="mask110">
+          <g>
+           <defs>
+            <linearGradient id="gradient110" x1="14439" y1="15763" x2="14439" y2="16926" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient110)" d="M 13858,15763 L 15020,15763 15020,16926 13858,16926 13858,15763 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask110)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 14438,15788 C 14753,15788 14994,16029 14994,16344 14994,16659 14753,16900 14438,16900 14123,16900 13883,16659 13883,16344 13883,16029 14123,15788 14438,15788 Z"/>
+        </g>
+        <defs>
+         <mask id="mask111">
+          <g>
+           <defs>
+            <linearGradient id="gradient111" x1="13883" y1="15763" x2="13883" y2="15814" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient111)" d="M 13858,15763 L 13909,15763 13909,15814 13858,15814 13858,15763 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask111)"/>
+        <defs>
+         <mask id="mask112">
+          <g>
+           <defs>
+            <linearGradient id="gradient112" x1="14995" y1="16876" x2="14995" y2="16927" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient112)" d="M 14970,16876 L 15021,16876 15021,16927 14970,16927 14970,16876 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask112)"/>
+       </g>
+       <path fill="rgb(0,220,255)" stroke="none" d="M 14413,15763 C 14728,15763 14969,16004 14969,16319 14969,16634 14728,16875 14413,16875 14098,16875 13858,16634 13858,16319 13858,16004 14098,15763 14413,15763 Z M 13858,15763 L 13858,15763 Z M 14970,16876 L 14970,16876 Z"/>
+       <defs>
+        <mask id="mask113">
+         <g>
+          <defs>
+           <linearGradient id="gradient113" x1="14414" y1="15738" x2="14414" y2="16901" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient113)" d="M 13833,15738 L 14995,15738 14995,16901 13833,16901 13833,15738 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask113)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 14413,15763 C 14728,15763 14969,16004 14969,16319 14969,16634 14728,16875 14413,16875 14098,16875 13858,16634 13858,16319 13858,16004 14098,15763 14413,15763 Z"/>
+       </g>
+       <defs>
+        <mask id="mask114">
+         <g>
+          <defs>
+           <linearGradient id="gradient114" x1="13858" y1="15738" x2="13858" y2="15789" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient114)" d="M 13833,15738 L 13884,15738 13884,15789 13833,15789 13833,15738 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask114)"/>
+       <defs>
+        <mask id="mask115">
+         <g>
+          <defs>
+           <linearGradient id="gradient115" x1="14970" y1="16851" x2="14970" y2="16902" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient115)" d="M 14945,16851 L 14996,16851 14996,16902 14945,16902 14945,16851 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask115)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id40">
+       <defs>
+        <mask id="mask116">
+         <g>
+          <defs>
+           <linearGradient id="gradient116" x1="16662" y1="15763" x2="16662" y2="16927" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient116)" d="M 16081,15763 L 17244,15763 17244,16927 16081,16927 16081,15763 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask116)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 16661,15788 C 16976,15788 17217,16029 17217,16344 17217,16659 16976,16900 16661,16900 16346,16900 16106,16659 16106,16344 16106,16029 16346,15788 16661,15788 Z M 16106,15788 L 16106,15788 Z M 17218,16901 L 17218,16901 Z"/>
+        <defs>
+         <mask id="mask117">
+          <g>
+           <defs>
+            <linearGradient id="gradient117" x1="16662" y1="15763" x2="16662" y2="16926" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient117)" d="M 16081,15763 L 17243,15763 17243,16926 16081,16926 16081,15763 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask117)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 16661,15788 C 16976,15788 17217,16029 17217,16344 17217,16659 16976,16900 16661,16900 16346,16900 16106,16659 16106,16344 16106,16029 16346,15788 16661,15788 Z"/>
+        </g>
+        <defs>
+         <mask id="mask118">
+          <g>
+           <defs>
+            <linearGradient id="gradient118" x1="16106" y1="15763" x2="16106" y2="15814" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient118)" d="M 16081,15763 L 16132,15763 16132,15814 16081,15814 16081,15763 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask118)"/>
+        <defs>
+         <mask id="mask119">
+          <g>
+           <defs>
+            <linearGradient id="gradient119" x1="17218" y1="16876" x2="17218" y2="16927" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient119)" d="M 17193,16876 L 17244,16876 17244,16927 17193,16927 17193,16876 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask119)"/>
+       </g>
+       <path fill="rgb(0,220,255)" stroke="none" d="M 16636,15763 C 16951,15763 17192,16004 17192,16319 17192,16634 16951,16875 16636,16875 16321,16875 16081,16634 16081,16319 16081,16004 16321,15763 16636,15763 Z M 16081,15763 L 16081,15763 Z M 17193,16876 L 17193,16876 Z"/>
+       <defs>
+        <mask id="mask120">
+         <g>
+          <defs>
+           <linearGradient id="gradient120" x1="16637" y1="15738" x2="16637" y2="16901" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient120)" d="M 16056,15738 L 17218,15738 17218,16901 16056,16901 16056,15738 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask120)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 16636,15763 C 16951,15763 17192,16004 17192,16319 17192,16634 16951,16875 16636,16875 16321,16875 16081,16634 16081,16319 16081,16004 16321,15763 16636,15763 Z"/>
+       </g>
+       <defs>
+        <mask id="mask121">
+         <g>
+          <defs>
+           <linearGradient id="gradient121" x1="16081" y1="15738" x2="16081" y2="15789" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient121)" d="M 16056,15738 L 16107,15738 16107,15789 16056,15789 16056,15738 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask121)"/>
+       <defs>
+        <mask id="mask122">
+         <g>
+          <defs>
+           <linearGradient id="gradient122" x1="17193" y1="16851" x2="17193" y2="16902" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient122)" d="M 17168,16851 L 17219,16851 17219,16902 17168,16902 17168,16851 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask122)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id41">
+       <defs>
+        <mask id="mask123">
+         <g>
+          <defs>
+           <linearGradient id="gradient123" x1="13277" y1="16205" x2="13277" y2="16434" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient123)" d="M 12696,16205 L 13859,16205 13859,16434 12696,16434 12696,16205 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask123)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 12747,16319 L 13531,16319"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 13859,16319 L 13516,16205 13516,16434 13859,16319 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id42">
+       <defs>
+        <mask id="mask124">
+         <g>
+          <defs>
+           <linearGradient id="gradient124" x1="15500" y1="16205" x2="15500" y2="16434" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient124)" d="M 14919,16205 L 16082,16205 16082,16434 14919,16434 14919,16205 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask124)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 14970,16319 L 15754,16319"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 16082,16319 L 15739,16205 15739,16434 16082,16319 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id43">
+       <defs>
+        <mask id="mask125">
+         <g>
+          <defs>
+           <linearGradient id="gradient125" x1="25431" y1="4692" x2="25431" y2="5852" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient125)" d="M 24850,4692 L 26012,4692 26012,5852 24850,5852 24850,4692 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask125)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 25430,4717 C 25744,4717 25985,4957 25985,5271 25985,5585 25744,5825 25430,5825 25116,5825 24875,5585 24875,5271 24875,4957 25116,4717 25430,4717 Z M 24875,4717 L 24875,4717 Z M 25986,5826 L 25986,5826 Z"/>
+        <defs>
+         <mask id="mask126">
+          <g>
+           <defs>
+            <linearGradient id="gradient126" x1="25430" y1="4692" x2="25430" y2="5850" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient126)" d="M 24850,4692 L 26011,4692 26011,5850 24850,5850 24850,4692 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask126)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 25430,4717 C 25744,4717 25985,4957 25985,5271 25985,5585 25744,5825 25430,5825 25116,5825 24875,5585 24875,5271 24875,4957 25116,4717 25430,4717 Z"/>
+        </g>
+        <defs>
+         <mask id="mask127">
+          <g>
+           <defs>
+            <linearGradient id="gradient127" x1="24875" y1="4692" x2="24875" y2="4743" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient127)" d="M 24850,4692 L 24901,4692 24901,4743 24850,4743 24850,4692 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask127)"/>
+        <defs>
+         <mask id="mask128">
+          <g>
+           <defs>
+            <linearGradient id="gradient128" x1="25986" y1="5801" x2="25986" y2="5852" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient128)" d="M 25961,5801 L 26012,5801 26012,5852 25961,5852 25961,5801 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask128)"/>
+       </g>
+       <path fill="rgb(0,174,0)" stroke="none" d="M 25405,4692 C 25719,4692 25960,4932 25960,5246 25960,5560 25719,5800 25405,5800 25091,5800 24850,5560 24850,5246 24850,4932 25091,4692 25405,4692 Z M 24850,4692 L 24850,4692 Z M 25961,5801 L 25961,5801 Z"/>
+       <defs>
+        <mask id="mask129">
+         <g>
+          <defs>
+           <linearGradient id="gradient129" x1="25405" y1="4667" x2="25405" y2="5825" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient129)" d="M 24825,4667 L 25986,4667 25986,5825 24825,5825 24825,4667 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask129)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 25405,4692 C 25719,4692 25960,4932 25960,5246 25960,5560 25719,5800 25405,5800 25091,5800 24850,5560 24850,5246 24850,4932 25091,4692 25405,4692 Z"/>
+       </g>
+       <defs>
+        <mask id="mask130">
+         <g>
+          <defs>
+           <linearGradient id="gradient130" x1="24850" y1="4667" x2="24850" y2="4718" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient130)" d="M 24825,4667 L 24876,4667 24876,4718 24825,4718 24825,4667 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask130)"/>
+       <defs>
+        <mask id="mask131">
+         <g>
+          <defs>
+           <linearGradient id="gradient131" x1="25961" y1="5776" x2="25961" y2="5827" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient131)" d="M 25936,5776 L 25987,5776 25987,5827 25936,5827 25936,5776 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask131)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id44">
+       <defs>
+        <mask id="mask132">
+         <g>
+          <defs>
+           <linearGradient id="gradient132" x1="24051" y1="5638" x2="24051" y2="9309" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient132)" d="M 23091,5638 L 25012,5638 25012,9309 23091,9309 23091,5638 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask132)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 23142,9258 L 24861,5930"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 25012,5638 L 24753,5891 24956,5996 25012,5638 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id45">
+       <defs>
+        <mask id="mask133">
+         <g>
+          <defs>
+           <linearGradient id="gradient133" x1="10303" y1="12380" x2="10303" y2="15925" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient133)" d="M 8808,12380 L 11798,12380 11798,15925 8808,15925 8808,12380 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask133)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 8859,12431 L 11587,15674"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 11798,15925 L 11665,15588 11489,15736 11798,15925 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id46">
+       <defs>
+        <mask id="mask134">
+         <g>
+          <defs>
+           <linearGradient id="gradient134" x1="19883" y1="5130" x2="19883" y2="5359" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient134)" d="M 14917,5130 L 24850,5130 24850,5359 14917,5359 14917,5130 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask134)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 14968,5208 L 24522,5245"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 24850,5246 L 24507,5130 24506,5359 24850,5246 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id47">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Light, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="5695" y="4253"><tspan fill="rgb(0,0,0)" stroke="none">1.0.0</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id48">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Light, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="13632" y="4253"><tspan fill="rgb(0,0,0)" stroke="none">1.0.1</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id49">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="DejaVu Sans Light, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="24663" y="4253"><tspan fill="rgb(0,0,0)" stroke="none">1.1.0</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id50">
+       <defs>
+        <mask id="mask135">
+         <g>
+          <defs>
+           <linearGradient id="gradient135" x1="18885" y1="15763" x2="18885" y2="16927" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="0.5" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+            <stop offset="1" style="stop-color:rgb(128,128,128)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient135)" d="M 18303,15763 L 19467,15763 19467,16927 18303,16927 18303,15763 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask135)">
+        <path fill="rgb(128,128,128)" stroke="none" d="M 18884,15788 C 19199,15788 19440,16029 19440,16344 19440,16659 19199,16900 18884,16900 18569,16900 18328,16659 18328,16344 18328,16029 18569,15788 18884,15788 Z M 18328,15788 L 18328,15788 Z M 19441,16901 L 19441,16901 Z"/>
+        <defs>
+         <mask id="mask136">
+          <g>
+           <defs>
+            <linearGradient id="gradient136" x1="18884" y1="15763" x2="18884" y2="16926" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient136)" d="M 18303,15763 L 19466,15763 19466,16926 18303,16926 18303,15763 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask136)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="51" stroke-linejoin="round" d="M 18884,15788 C 19199,15788 19440,16029 19440,16344 19440,16659 19199,16900 18884,16900 18569,16900 18328,16659 18328,16344 18328,16029 18569,15788 18884,15788 Z"/>
+        </g>
+        <defs>
+         <mask id="mask137">
+          <g>
+           <defs>
+            <linearGradient id="gradient137" x1="18328" y1="15763" x2="18328" y2="15814" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient137)" d="M 18303,15763 L 18354,15763 18354,15814 18303,15814 18303,15763 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask137)"/>
+        <defs>
+         <mask id="mask138">
+          <g>
+           <defs>
+            <linearGradient id="gradient138" x1="19441" y1="16876" x2="19441" y2="16927" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+             <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient138)" d="M 19416,16876 L 19467,16876 19467,16927 19416,16927 19416,16876 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask138)"/>
+       </g>
+       <path fill="rgb(0,220,255)" stroke="none" d="M 18859,15763 C 19174,15763 19415,16004 19415,16319 19415,16634 19174,16875 18859,16875 18544,16875 18303,16634 18303,16319 18303,16004 18544,15763 18859,15763 Z M 18303,15763 L 18303,15763 Z M 19416,16876 L 19416,16876 Z"/>
+       <defs>
+        <mask id="mask139">
+         <g>
+          <defs>
+           <linearGradient id="gradient139" x1="18859" y1="15738" x2="18859" y2="16901" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient139)" d="M 18278,15738 L 19441,15738 19441,16901 18278,16901 18278,15738 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask139)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="51" stroke-linejoin="round" d="M 18859,15763 C 19174,15763 19415,16004 19415,16319 19415,16634 19174,16875 18859,16875 18544,16875 18303,16634 18303,16319 18303,16004 18544,15763 18859,15763 Z"/>
+       </g>
+       <defs>
+        <mask id="mask140">
+         <g>
+          <defs>
+           <linearGradient id="gradient140" x1="18303" y1="15738" x2="18303" y2="15789" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient140)" d="M 18278,15738 L 18329,15738 18329,15789 18278,15789 18278,15738 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask140)"/>
+       <defs>
+        <mask id="mask141">
+         <g>
+          <defs>
+           <linearGradient id="gradient141" x1="19416" y1="16851" x2="19416" y2="16902" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient141)" d="M 19391,16851 L 19442,16851 19442,16902 19391,16902 19391,16851 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask141)"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id51">
+       <defs>
+        <mask id="mask142">
+         <g>
+          <defs>
+           <linearGradient id="gradient142" x1="17722" y1="16205" x2="17722" y2="16434" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient142)" d="M 17142,16205 L 18303,16205 18303,16434 17142,16434 17142,16205 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask142)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 17193,16319 L 17975,16319"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 18303,16319 L 17960,16205 17960,16434 18303,16319 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id52">
+       <defs>
+        <mask id="mask143">
+         <g>
+          <defs>
+           <linearGradient id="gradient143" x1="9307" y1="5550" x2="9307" y2="7430" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient143)" d="M 6976,5550 L 11638,5550 11638,7430 6976,7430 6976,5550 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask143)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 7027,5601 L 11333,7309"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 11638,7430 L 11361,7197 11276,7410 11638,7430 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id53">
+       <defs>
+        <mask id="mask144">
+         <g>
+          <defs>
+           <linearGradient id="gradient144" x1="11611" y1="11761" x2="11611" y2="11990" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient144)" d="M 9363,11761 L 13859,11761 13859,11990 9363,11990 9363,11761 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask144)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 9414,11875 L 13531,11875"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 13859,11875 L 13516,11761 13516,11990 13859,11875 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ConnectorShape">
+      <g id="id54">
+       <defs>
+        <mask id="mask145">
+         <g>
+          <defs>
+           <linearGradient id="gradient145" x1="21889" y1="11761" x2="21889" y2="11990" gradientUnits="userSpaceOnUse">
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="0.5" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+            <stop offset="1" style="stop-color:rgb(77,77,77)"/>
+           </linearGradient>
+          </defs>
+          <path style="fill:url(#gradient145)" d="M 18807,11761 L 24971,11761 24971,11990 18807,11990 18807,11761 Z"/>
+         </g>
+        </mask>
+       </defs>
+       <g style="mask:url(#mask145)">
+        <path fill="none" stroke="rgb(0,0,0)" stroke-width="102" stroke-linejoin="round" d="M 18858,11875 L 24643,11875"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 24971,11875 L 24628,11761 24628,11990 24971,11875 Z"/>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
