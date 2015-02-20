@@ -42,7 +42,7 @@
       <div class="slides">
         <section>
           <h2>Introducing</h1>
-          <h1>Behavior Driven Development</h1>
+          <h1>A New Development Approach</h1>
           <h2>For Multisite and NextEuropa</h1>
           <aside class="notes">
             Turn off Workrave before starting :)
@@ -50,34 +50,28 @@
         </section>
 
         <section data-background="#007777">
-          <h2>What is BDD?</h2>
-          <h3>Bridge between client and development team</h3>
+          <h2>Goal</h2>
+          <h3>Reduce QA effort</h3>
+          <h3>Reduce regressions</h3>
+          <h3>Improve software quality</h3>
+          <h3>Streamline delivery process</h3>
         </section>
 
         <section data-background="#007777">
-          <h2>What is needed?</h2>
-          <h3>Agile workflow</h3>
-          <h3>Version control</h3>
-          <h3>Business language</h3>
-          <h3>Automated build process</h3>
+          <h2>How?</h2>
+          <h3>Behaviour Driven Development</h3>
+          <h3>Updated Agile workflow</h3>
+          <h3>Continuous Integration</h3>
+          <h3>Git-flow</h3>
         </section>
 
         <section data-background="#007777">
-          <h2>Agile</h2>
-          <h3>User story > acceptance test</h3>
-          <h3>Definition of ready = has test</h3>
-          <h3>Definition of done = tests pass</h3>
-          <br>
-          <h3>Continuously releasable state</h3>
+          <h2>Behaviour Driven Development</h2>
+          <img src="red-green-refactor.svg">
         </section>
 
         <section data-background="#007777">
-          <h2>Version control</h2>
-          <img src="git-graph.svg">
-        </section>
-
-        <section data-background="#007777">
-          <h2>Business language</h2>
+          <h2>Example acceptance test</h2>
           <pre>
             <code class="text">
               Feature: Event calendar
@@ -98,18 +92,23 @@
         </section>
 
         <section data-background="#007777">
-          <h2>Automated build process</h2>
+          <h2>Updated Agile workflow</h2>
+          <br>
+          <h3>User story &#9758; acceptance test</h3>
+          <h3>Definition of ready = has test</h3>
+          <h3>Definition of done = tests pass</h3>
+          <br>
+          <h3>Goal: continuously releasable state</h3>
+        </section>
+
+        <section data-background="#007777">
+          <h2>Continuous Integration</h2>
           <img src="continuous.svg">
         </section>
 
         <section data-background="#007777">
-          <h2>Benefits</h2>
-          <ul>
-            <li>Communication</li>
-            <li>Planning</li>
-            <li>Documentation</li>
-            <li>Software quality</li>
-          </ul>
+          <h2>Git-flow</h2>
+          <img src="git-graph.svg">
         </section>
 
         <section data-background="#4d7e65" data-background-transition="slide">
@@ -118,7 +117,6 @@
             <li>Behat test scenarios required</li>
             <li>Behat tests in NextEuropa</li>
             <li>Documentation in wiki</li>
-            <li>Git on Stash</li>
             <li>Training on ContinuousPHP</li>
           </ul>
         </section>
@@ -126,17 +124,24 @@
         <section data-background="#4d7e65" data-background-transition="slide">
           <h2>Next steps</h2>
           <ul>
-            <li>Open up Stash</li>
+            <li>Reorganize directory structure</li>
+            <li>Use git for Multisite / NE</li>
+            <li>Move all patches into drush make</li>
+            <li>Use Phing to build and install</li>
             <li>Pilot project on ContinuousPHP</li>
-            <li>Adaptations to Multisite / NE</li>
-            <li>Develop test suite</li>
           </ul>
         </section>
 
-        <section data-background="#4d7e65" data-background-transition="slide">
+        <section data-background="#000000" data-background-transition="slide">
+          <h1>May</h1>
+          <h1>2015</h1>
+          <h3>On a computer near you</h3>
+        </section>
+
+        <section data-background="#93734b" data-background-transition="slide">
           <h2>More information</h2>
           <ul>
-            <li><a href="https://www.youtube.com/watch?v=lfW2ngf5DgE">Youtube: Doing BDD with Behat</a></li>
+            <li><a href="https://webgate.ec.europa.eu/CITnet/jira/browse/MULTISITE-5598">Jira: Introducing Continuous Integration</a></li>
             <li><a href="https://webgate.ec.europa.eu/fpfis/wikis/pages/viewpage.action?pageId=90442021">Wiki: Writing Behat scenarios</a></li>
           </ul>
         </section>
