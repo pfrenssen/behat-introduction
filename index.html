@@ -41,9 +41,9 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
         <section>
-          <h2>Introducing</h1>
           <h1>A New Development Approach</h1>
-          <h2>For Multisite and NextEuropa</h1>
+          <h2>An updated governance model</h1>
+          <h2>For Joinup</h1>
           <aside class="notes">
             Turn off Workrave before starting :)
           </aside>
@@ -74,19 +74,19 @@
           <h2>Example acceptance test</h2>
           <pre>
             <code class="text">
-              Feature: Event calendar
-                In order to announce upcoming events
-                As an event manager
-                I need to maintain a public event calendar
+        Feature: Adding a news item to a community
+          In order to announce news to my community
+          As a member
+          I need to be able to add news items 
 
-              Scenario: Create event
-                Given I am logged in as an event manager
-                When I visit the dashboard
-                And I click on 'Add event'
-                And I enter the title 'Summer training'
-                And I enter the date '2015-08-01'
-                And I click on 'Save'
-                Then I should see 'Event has been created'
+        Scenario: Navigate to the Create News form
+          Given I am logged in as a member of the 'Joinup' group
+          When I visit the news overview
+          And I press the 'Add' button
+          And I click on 'News item'
+          And I select the group 'Joinup' in the popup
+          And I press the 'Continue' button
+          Then I should see the Create News form
             </code>
           </pre>
         </section>
@@ -111,37 +111,10 @@
           <img src="git-graph.svg">
         </section>
 
-        <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>What is already done</h2>
-          <ul>
-            <li>Behat test scenarios required</li>
-            <li>Behat tests in NextEuropa</li>
-            <li>Documentation in wiki</li>
-            <li>Training on ContinuousPHP</li>
-          </ul>
-        </section>
-
-        <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Next steps</h2>
-          <ul>
-            <li>Reorganize directory structure</li>
-            <li>Use git for Multisite / NE</li>
-            <li>Move all patches into drush make</li>
-            <li>Use Phing to build and install</li>
-            <li>Pilot project on ContinuousPHP</li>
-          </ul>
-        </section>
-
-        <section data-background="#000000" data-background-transition="slide">
-          <h1>May</h1>
-          <h1>2015</h1>
-          <h3>On a computer near you</h3>
-        </section>
-
         <section data-background="#93734b" data-background-transition="slide">
           <h2>More information</h2>
           <ul>
-            <li><a href="https://webgate.ec.europa.eu/CITnet/jira/browse/MULTISITE-5598">Jira: Introducing Continuous Integration</a></li>
+            <li><a href="http://en.wikipedia.org/wiki/Continuous_integration">Continuous Integration</a></li>
             <li><a href="https://webgate.ec.europa.eu/fpfis/wikis/pages/viewpage.action?pageId=90442021">Wiki: Writing Behat scenarios</a></li>
           </ul>
         </section>
