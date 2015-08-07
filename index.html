@@ -62,27 +62,6 @@
         </section>
 
         <section data-background="#007777">
-          <h2>How does it look?</h2>
-          <pre>
-            <code class="text">
-              Feature: Event calendar
-                In order to announce upcoming events
-                As an event manager
-                I need to maintain a public event calendar
-
-              Scenario: Create event
-                Given I am logged in as an event manager
-                When I visit the dashboard
-                And I click on 'Add event'
-                And I enter the title 'Summer training'
-                And I enter the date '2015-08-01'
-                And I click on 'Save'
-                Then I should see 'Event has been created'
-            </code>
-          </pre>
-        </section>
-
-        <section data-background="#007777">
           <h2>Better communication</h2>
           <ul>
             <li>A shared language</h3>
@@ -212,39 +191,46 @@
           </pre>
         </section>
 
-        <section data-background="#e8250c" data-background-transition="slide">
-          <h2>Exercise</h2>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <aside class="notes">
-            Step through each line.
-          </aside>
-          <h2>Installing Behat</h2>
-          <h3>composer.json</h3>
-          <pre class="gherkin">
+        <section data-background="#7A6750" data-background-transition="slide">
+          <h2>Get started</h2>
+          <pre class="bash">
             <div>
-              {
-                "require": {
-                  "behat/behat": "3.0.*@stable",
-                  "drupal/drupal-extension": "~3.0"
-                },
-                "minimum-stability": "stable",
-                "config": {
-                  "bin-dir": "bin/"
-                }
-              }
-            </div>
-          </pre>
-          <pre>
-            <div class="bash">
-              $ composer install
+         $ git clone https://github.com/pfrenssen/behat-workshop.git 
+         $ cd behat-workshop
             </div>
           </pre>
         </section>
 
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Configuring Behat</h2>
+        <section data-background="#7A6750" data-background-transition="slide">
+          <h2>Install Composer</h2>
+          <p><a href="https://getcomposer.org/download/">https://getcomposer.org/download/</a></p>
+          <pre class="bash">
+            <div>
+              $ curl -sS https://getcomposer.org/installer | php
+            </div>
+          </pre>
+          <pre class="bash">
+            <div>
+              $ php composer.phar --version
+            </div>
+          </pre>
+        </section>
+
+        <section data-background="#7A6750" data-background-transition="slide">
+          <h2>Install Behat Drupal Extension</h2>
+          <pre class="bash">
+            <div>
+              $ php composer.phar require drupal/drupal-extension
+            </div>
+          </pre>
+          <pre class="bash">
+            <div>
+              $ ./vendor/bin/behat --version
+            </div>
+          </pre>
+        </section>
+
+        <section data-background="#7A6750" data-background-transition="slide">
           <h3>behat.yml</h3>
           <pre>
             <div class="behatyml">
@@ -254,23 +240,60 @@
                     contexts:
                       - FeatureContext
                       - Drupal\DrupalExtension\Context\DrupalContext
+                      - Drupal\DrupalExtension\Context\DrushContext
                       - Drupal\DrupalExtension\Context\MessageContext
                       - Drupal\DrupalExtension\Context\MinkContext
                 extensions:
                   Behat\MinkExtension:
                     goutte: ~
+                    selenium2: ~
+                    base_url: http://mysite.local/
                   Drupal\DrupalExtension:
                     blackbox: ~
                     api_driver: 'drupal'
+                    drupal:
+                      drupal_root: '/var/www/mysite'
             </div>
           </pre>
         </section>
 
-        <section data-background="#b4946e" data-background-transition="slide">
+        <section data-background="#7A6750" data-background-transition="slide">
+          <h2>RTFM</h2>
+          <p><a href="http://drupal.org/project/drupalextension">http://drupal.org/project/drupalextension</a></p>
+          <p><a href="http://bit.ly/1NeFa75">http://bit.ly/1NeFa75</a></p>
+          <pre>
+            <div class="behatyml">
+              $ git checkout 1-wikipedia
+              $ cp behat.yml.dist behat.yml
+            </div>
+          </pre>
+        </section>
+
+        <section data-background="#7A6750" data-background-transition="slide">
+          <h3>behat.yml</h3>
+          <pre>
+            <div class="behatyml">
+              default:
+                suites:
+                  default:
+                    contexts:
+                      - Drupal\DrupalExtension\Context\MinkContext
+                extensions:
+                  Behat\MinkExtension:
+                    base-url: 'https://en.wikipedia.org/'
+                    goutte: ~
+            </div>
+          </pre>
+          <aside class="notes">
+            This is the default test profile.
+          </aside>
+        </section>
+
+        <section data-background="#7A6750" data-background-transition="slide">
           <h2>Bootstrap test suite</h2>
           <pre>
             <div class="bash">
-              $ ./bin/behat --init
+              $ ./vendor/bin/behat --init
             </div>
           </pre>
           <pre>
@@ -282,11 +305,55 @@
         </section>
 
         <section data-background="#b4946e" data-background-transition="slide">
+          <h2>A blackbox test</h2>
+          <pre>
+            <div class="feature">
+      Scenario: Find the Behat article
+        Given I am on the homepage
+        When I enter "Behat" for "search"
+        And I press "Go"
+        Then I should see the heading "Behat"
+        But I see the text "Behat is an ancient town"
+        When I click "Behat (computer science)"
+        Then I should see the heading "Behat (computer science)"
+        And I should see the text "Behat is a BDD framework"
+            </div>
+          </pre>
+          <pre>
+            <div class="feature">
+      $ git checkout 2-wikipedia
+            </div>
+          </pre>
+        </section>
+
+        <section data-background="#b4946e" data-background-transition="slide">
+          <h2>Run the test</h2>
+          <pre>
+            <div class="feature">
+      $ ./vendor/bin/behat
+      Scenario: Find the Behat article
+        Given I am on the homepage
+        When I enter "Behat" for "search"
+        And I press "Go"
+        Then I should see the heading "Behat"
+        But I see the text "Behat is an ancient town"
+        When I click "Behat (computer science)"
+        Then I should see the heading "Behat (computer science)"
+        And I should see the text "Behat is a BDD framework"
+      
+      1 scenario (1 passed)
+      8 steps (8 passed)
+      0m8.21s (18.10Mb)
+            </div>
+          </pre>
+        </section>
+
+        <section data-background="#b4946e" data-background-transition="slide">
           <h2>Built-in step definitions</h2>
           <pre>
 
             <div class="bash">
-            $ ./bin/behat -di
+            $ ./vendor/bin/behat -di
 
             <span class="fragment">Given I am not logged in
             Given I am logged in as :name</span>
@@ -303,66 +370,6 @@
             </div>
           </pre>
           <p class="fragment">More than 100 built-in steps!</p>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h3>Aliases</h3>
-          <pre>
-            <div class="bash">
-                Given I am not logged in
-                Given I am an anonymous user
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h3>Regular expressions</h3>
-          <pre>
-            <div class="bash">
-            Given /^(?:|I )am on (?:|the )homepage$/
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Sample scenario with built-ins</h2>
-          <h3>features/frontpage.feature</h3>
-          <pre>
-            <div class="feature">
-          Feature: Frontpage
-            In order to have an overview of the website
-            As an anonymous user
-            I want to see relevant information on the frontpage
-
-          Scenario: Anonymous user can see the frontpage
-            Given I am not logged in
-            When I am on the homepage
-            Then I should see the text "Welcome, earthling."
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Run the test</h2>
-          <pre>
-            <div class="feature">
-          $ ./bin/behat
-
-          <span class="fragment">Feature: Frontpage
-            In order to have an overview of the website
-            As an anonymous user
-            I want to see relevant information on the frontpage
-
-            Scenario: Anonymous user can see the frontpage
-              Given I am not logged in
-              When I am on the homepage
-              Then I should see the text "Welcome, earthling."
-
-          1 scenario (1 passed)
-          3 steps (3 passed)
-          0m0.99s (29.56Mb)</span>
-            </div>
-          </pre>
         </section>
 
         <section data-background="#783d2b" data-background-transition="slide">
@@ -388,6 +395,128 @@
           Then I should see the text "Page not found"
           Then I should see the welcome message
           Then I should see 5 blog posts
+          And I wait for the autocomplete suggestions to appear
+            </div>
+          </pre>
+        </section>
+
+        <section data-background="#7A6750" data-background-transition="slide">
+          <h2>Testing Drupal</h2>
+          <h3>behat.yml</h3>
+          <pre>
+            <div class="behatyml">
+            default:
+              suites:
+                default:
+                  contexts:
+                    - FeatureContext
+                    - Drupal\DrupalExtension\Context\DrupalContext
+                    - Drupal\DrupalExtension\Context\MinkContext
+              extensions:
+                Behat\MinkExtension:
+                  base-url: 'http://mysite.local/'
+                Drupal\DrupalExtension:
+                  api_driver: 'drupal'
+                  drupal:
+                    drupal_root: '/var/www/mysite'
+            </div>
+          </pre>
+          <aside class="notes">
+            This is the default test profile.
+          </aside>
+        </section>
+
+        <section data-background="#7A6750" data-background-transition="slide">
+          <h2>Configuring Behat</h2>
+          <pre>
+            <div class="behatyml">
+              $ git checkout 3-drupal
+              $ cp behat.yml.dist behat.yml
+              $ vim behat.yml
+            </div>
+          </pre>
+          <pre>
+            <div class="behatyml">
+            default:
+              extensions:
+                Behat\MinkExtension:
+                  base-url: 'http://mysite.local/' &lt;&lt;&lt;&lt;&lt;
+                Drupal\DrupalExtension:
+                  drupal:
+                    drupal_root: '/var/www/mysite' &lt;&lt;&lt;&lt;&lt;
+            </div>
+          </pre>
+        </section>
+
+        <section data-background="#b4946e" data-background-transition="slide">
+          <h3>features/newsroom.feature</h3>
+          <pre>
+            <div class="feature">
+           @api
+           Scenario: Anonymous user can see the news overview
+             Given "News article" content:
+             | title     | body                |
+             | Article 1 | The first article.  |
+             | Article 2 | The second article. |
+           
+             Given I am not logged in
+             When I visit "news"
+             Then I should see the heading "News"
+             And I should see the link "Article 1"
+             And I should see the text "The first article."
+             And I should see the link "Article 2"
+             And I should see the text "The second article."
+            </div>
+          </pre>
+        </section>
+
+        <section data-background="#b4946e" data-background-transition="slide">
+          <h2>Run the test</h2>
+          <pre>
+            <div class="feature">
+          $ ./vendor/bin/behat
+
+          <span class="fragment">
+         @api
+         Scenario: Anonymous user can see the news overview
+           Given "News article" content:
+             | title     | body                |
+             | Article 1 | The first article.  |
+             | Article 2 | The second article. |
+           Given I am not logged in
+           ...
+         
+         1 scenario (1 passed)
+         8 steps (8 passed)
+         0m0.75s (34.45Mb)
+            </div>
+          </pre>
+          <aside class="notes">
+            For the tests to pass you might need to implement the functionality :)
+          </aside>
+        </section>
+
+        <section data-background="#1e7849" data-background-transition="slide">
+          <h2>Defining your own steps</h2>
+          <pre>
+            <div class="bash">
+          $ git checkout 4-custom
+            </div>
+          </pre>
+          <pre>
+            <div class="bash">
+          @api
+          Scenario: Anonymous user can see the news overview
+            Given "News article" content:
+            | title     | body                |
+            | Article 1 | The first article.  |
+            | Article 2 | The second article. |
+            | Article 3 | The third article.  |
+          
+            Given I am not logged in
+            When I visit "news"
+            Then I should see the heading "News"
+            And I should see 3 news articles     &lt;&lt;&lt;&lt;&lt; CUSTOM STEP
             </div>
           </pre>
         </section>
@@ -396,7 +525,7 @@
           <h2>Defining your own steps</h2>
           <pre>
             <div class="bash">
-  $ ./bin/behat
+  $ ./vendor/bin/behat
 
   1 scenario (1 undefined)
   5 steps (4 passed, 1 undefined)
@@ -405,9 +534,9 @@
   --- FeatureContext has missing steps. Define them with these snippets:
 
       /**
-       * @Then I should see the welcome message
+       * @Then I should see :arg1 news articles
        */
-      public function iShouldSeeTheWelcomeMessage()
+      public function iShouldSeeNewsArticles($arg1)
       {
           throw new PendingException();
       }
@@ -419,42 +548,37 @@
           <h2>Add missing steps automatically</h2>
           <pre>
             <div class="bash">
-          $ ./bin/behat --append-snippets
+          $ ./vendor/bin/behat --append-snippets
 
           1 scenario (1 undefined)
           5 steps (4 passed, 1 undefined)
           0m5.47s (42.90Mb)
 
-          `I should see the welcome message` definition added
+          `I should see 3 news articles` definition added
             </div>
           </pre>
         </section>
 
         <section data-background="#1e7849" data-background-transition="slide">
-          <h2>Example custom steps</h2>
+          <h2>Implementation</h2>
           <pre>
             <div class="php">
     /**
-     * @Then I should see :number blog posts
+     * @Then I should see :number news articles
      */
-    public function assertBlogPostCount($number) {
-      $this->assertSession()->elementsCount('css', 'div.blog', $number);
+    public function assertNewsArticleCount($number) {
+      $this->assertSession()->elementsCount('css', 'div.news-article', $number);
     }
             </div>
           </pre>
           <p>See MinkContext and DrupalContext</p>
         </section>
 
-        <section data-background="#007777" data-background-transition="slide">
-          <h2>Start using BDD today</h2>
-          <ol>
-            <li>Write Gherkin scenarios for every ticket</li>
-            <li class="fragment">Ask product owner to approve scenarios</li>
-            <li class="fragment">Add features to your project</li>
-            <li class="fragment">Use placeholders for custom steps</li>
-            <li class="fragment">Test scenarios manually</li>
-            <li class="fragment">Install behat in your project (10 min)</li>
-          </ol>
+        <section data-background="#1e7849" data-background-transition="slide">
+          <h2>Selenium</h2>
+          <ul><li>Supported by Mink</li>
+          <li>Install selenium-server-standalone</li>
+          <li>Use tag `@javascript`</li></ul>
         </section>
 
       </div>
