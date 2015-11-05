@@ -41,8 +41,7 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
         <section>
-          <h1>Behat</h1>
-          <h3>On Drupal</h3>
+          <h1>Testing small to medium size client projects with Behat</h1>
           <aside class="notes">
             Turn off Workrave before starting :)
           </aside>
@@ -50,12 +49,81 @@
 
         <section>
           <h2>About me</h2>
-          <h3>Pieter Frenssen</h3>
-          <ul><li>https://drupal.org/u/pfrenssen</li>
-          <li>https://twitter.com/pfrenssen</li></ul>
+          <h1>Pieter Frenssen</h1>
+          <h3>"pfrenssen"</h3>
+          <p>https://drupal.org/u/pfrenssen<br />
+          https://twitter.com/pfrenssen</p>
         </section>
 
-        <section>
+        <section data-background="#007777">
+          <h2>Why automated testing?</h2>
+          <br />
+          <h3>Faster</h3>
+          <h3>More reliable</h3>
+          <h3>Better coverage</h3>
+          <h3>Reusable</h3>
+        </section>
+
+        <section data-background="#007777">
+          <h2>Business value</h2>
+          <br />
+          <h3>Reduced QA effort</h3>
+          <h3>Minimize regressions</h3>
+          <h3>Increased stability</h3>
+          <h3>Improved software quality</h3>
+          <h3>Streamlined delivery process</h3>
+          <h3>Key feature of agile development</h3>
+          <br />
+          <h2>Saves time and money</h2>
+        </section>
+
+        <section data-background="#007777">
+          <h2>Types of automated tests</h2>
+          <br />
+          <h3>Functional tests</h3>
+          <h3>Unit tests</h3>
+          <h3>Stress/Load/Performance tests</h3>
+          <h3>Regression tests</h3>
+          <h3>Smoke/Sanity tests</h3>
+          <h3>A/B tests</h3>
+        </section>
+
+        <section data-background="#007777">
+          <h2>Functional tests vs unit tests</h2>
+          <br />
+        </section>
+
+        <section data-background="#007777">
+          <h2>Non-automatable tests</h2>
+          <br />
+          <h3>Acceptance tests</h3>
+          <h3>Alpha/Beta tests</h3>
+          <h3>Usability tests</h3>
+        </section>
+
+        <section data-background="#007777">
+          <h2>History of testing in Drupal</h2>
+          <br />
+          <h3>Drupal 6: SimpleTest contrib module</h3>
+          <h3>Drupal 7: SimpleTest in core</h3>
+          <h3>Drupal 8: WebTestBase, UnitTestBase, BrowserTestBase</h3>
+          <h3>Drupal 8.1: JavascriptTestBase (?)</h3>
+          <br />
+          <h3>Third party frameworks: Behat, Codeception, Atoum, ...</h3>
+          <aside class="notes">
+            JavascriptTestBase uses PhantomJS
+          </aside>
+        </section>
+
+        <section data-background="#007777">
+          <h2>Comparison</h2>
+          <br />
+          <h3>Simpletest: functional, slow, hard</h3>
+          <h3>PHPUnit: unit, very fast, very hard</h3>
+          <h3>Behat: functional, fast, easy</h3>
+        </section>
+
+        <section data-background="#007777">
           <h2>What is Behat?</h2>
           <p>
             Behat is a BDD framework for PHP
@@ -64,70 +132,17 @@
 
         <section data-background="#007777">
           <h2>What is BDD?</h2>
+          <br />
           <h3>Bridge between client and development team</h3>
-        </section>
-
-        <section data-background="#007777">
+          <br />
           <h2>Better communication</h2>
-          <ul>
-            <li>A shared language</h3>
-            <li>Understandable by business and developers</li>
-            <li>Focused on business value</li>
-          </ul>
-          <aside class="notes">
-            Business value: answer WHY?
-          </aside>
-        </section>
-
-        <section data-background="#007777">
           <h2>Better planning</h2>
-          <h3>Effective planning of development cycle</h3>
-          <ul>
-            <li>Based on Agile workflow</li>
-            <li>Similar to user stories</li>
-            <li>Provides specification (DoR)</li>
-            <li>Provides acceptance criteria (DoD)</li>
-          </ul>
-        </section>
-
-        <section data-background="#007777">
           <h2>Better documentation</h2>
-          <h3>Complete, always correct</h3>
-          <ul>
-            <li>Living documentation</li>
-            <li>Every feature is documented</li>
-            <li>Specification == documentation</li>
-            <li>Basis for writing user manuals</li>
-          </ul>
-        </section>
-
-        <section data-background="#007777">
           <h2>Improve software quality</h2>
-          <h3>Manual + automatic tests</h3>
-          <ul>
-            <li>Developer ensures specification is met</li>
-            <li>QA engineer can validate</li>
-            <li>Product owner can approve</li>
-          </ul>
         </section>
 
         <section data-background="#4d7e65" data-background-transition="slide">
-          <h1>Gherkin</h1>
-        </section>
-
-        <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Gherkin</h2>
-          <h3>A language understandable by everyone</h3>
-          <ul>
-            <li>Business readable</li>
-            <li>Developer readable</li>
-            <li>Machine readable</li>
-            <li>Domain specific</li>
-          </ul>
-        </section>
-
-        <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Gherkin example</h2>
+          <h2>Behat example</h2>
           <pre>
             <code class="gherkin">
               Feature: Product highlights
@@ -144,7 +159,7 @@
         </section>
 
         <section data-background="#4d7e65" data-background-transition="slide">
-          <h2>Gherkin structure</h2>
+          <h2>Structure</h2>
           <pre>
             <code class="gherkin">
               Feature: &lt; title &gt;
@@ -226,7 +241,7 @@
           <h2>Install Behat Drupal Extension</h2>
           <pre class="bash">
             <div>
-              $ php composer.phar require drupal/drupal-extension
+              $ composer require drupal/drupal-extension
             </div>
           </pre>
           <pre class="bash">
