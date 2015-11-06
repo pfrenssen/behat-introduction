@@ -56,7 +56,7 @@
         </section>
 
         <section data-background="#007777">
-          <h2>Why automated testing?</h2>
+          <h2>Why automate tests?</h2>
           <br />
           <h3>Faster</h3>
           <h3>More reliable</h3>
@@ -67,14 +67,12 @@
         <section data-background="#007777">
           <h2>Business value</h2>
           <br />
-          <h3>Reduced QA effort</h3>
+          <h3>Reduce QA effort</h3>
           <h3>Minimize regressions</h3>
           <h3>Increased stability</h3>
           <h3>Improved software quality</h3>
           <h3>Streamlined delivery process</h3>
           <h3>Key feature of agile development</h3>
-          <br />
-          <h2>Saves time and money</h2>
         </section>
 
         <section data-background="#007777">
@@ -82,34 +80,29 @@
           <br />
           <h3>Functional tests</h3>
           <h3>Unit tests</h3>
-          <h3>Stress/Load/Performance tests</h3>
+          <h3>Stress + Load + Performance tests</h3>
           <h3>Regression tests</h3>
-          <h3>Smoke/Sanity tests</h3>
+          <h3>Smoke + Sanity tests</h3>
           <h3>A/B tests</h3>
-        </section>
-
-        <section data-background="#007777">
-          <h2>Functional tests vs unit tests</h2>
-          <br />
         </section>
 
         <section data-background="#007777">
           <h2>Non-automatable tests</h2>
           <br />
           <h3>Acceptance tests</h3>
-          <h3>Alpha/Beta tests</h3>
+          <h3>Alpha + Beta tests</h3>
           <h3>Usability tests</h3>
         </section>
 
         <section data-background="#007777">
           <h2>History of testing in Drupal</h2>
           <br />
-          <h3>Drupal 6: SimpleTest contrib module</h3>
-          <h3>Drupal 7: SimpleTest in core</h3>
-          <h3>Drupal 8: WebTestBase, UnitTestBase, BrowserTestBase</h3>
-          <h3>Drupal 8.1: JavascriptTestBase (?)</h3>
+          <h3>D6: SimpleTest contrib module</h3>
+          <h3>D7: SimpleTest in core</h3>
+          <h3>D8: WebTestBase, UnitTestBase, BrowserTestBase</h3>
+          <h3>D8.1: JavascriptTestBase?</h3>
           <br />
-          <h3>Third party frameworks: Behat, Codeception, Atoum, ...</h3>
+          <h3>Third party: Behat, Codeception, Atoum, ...</h3>
           <aside class="notes">
             JavascriptTestBase uses PhantomJS
           </aside>
@@ -212,12 +205,115 @@
           </pre>
         </section>
 
+        <section data-background="#b4946e" data-background-transition="slide">
+          <h2>Built-in step definitions</h2>
+          <h3>More than 100 built-in steps!</h3>
+          <br />
+          <h3>Organized in 'contexts':</h3>
+          <ul><li>
+            MinkContext
+          </li><li>
+            DrupalContext
+          </li><li>
+            DrushContext
+          </li><li>
+            MessageContext
+          </li><li>
+            FeatureContext
+          </li></ul>
+        </section>
+
+        <section data-background="#b4946e" data-background-transition="slide">
+          <h2>MinkContext</h2>
+          <pre>
+            <span class="fragment">Given I am on the homepage
+            Given I go to &lt;url&gt;</span>
+
+            <span class="fragment">When I visit :path
+            When I click &lt;link&gt;
+            When I enter &lt;value&gt; for &lt;field&gt;
+            When I attach the file &lt;file&gt; to &lt;field&gt;
+            When I press the &lt;button&gt; button</span>
+
+            <span class="fragment">Then I should see the text &lt;text&gt;
+            Then I should not see the link &lt;link&gt;
+            Then the &lt;field&gt; checkbox should be checked</span>
+          </pre>
+        </section>
+
+        <section data-background="#b4946e" data-background-transition="slide">
+          <h2>DrupalContext</h2>
+          <pre>
+            <span class="fragment">Given I am not logged in
+            Given I am logged in as a/an &lt;role&gt;</span>
+
+            <span class="fragment">Given a/an &lt;type&gt; with the title &lt;title&gt;
+            Given a/an &lt;vocabulary&gt; term with the name &lt;name&gt;</span>
+
+            <span class="fragment">Given the following languages are available:</span>
+
+            <span class="fragment">Given the cache has been cleared
+            Given I run cron</span>
+          </pre>
+        </section>
+
+        <section data-background="#b4946e" data-background-transition="slide">
+          <h2>DrushContext</h2>
+          <pre>
+            <span class="fragment">Given I run drush &lt;command&gt;
+            The drush output should contain &lt;text&gt;</span>
+          </pre>
+
+          <h2>MessageContext</h2>
+          <pre>
+            <span class="fragment">Then I should see the error message &lt;message&gt;
+            Then I should not see the success message &lt;message&gt;</span>
+          </pre>
+
+          <h2>FeatureContext</h2>
+          <pre>
+            <span class="fragment">Your own custom steps</span>
+          </pre>
+        </section>
+
+        <section data-background="#783d2b" data-background-transition="slide">
+          <h2>Bad built-in stuff</h2>
+          <pre>
+            <div class="bash">
+          Then I should get a :code HTTP response
+          Then I should see text matching "&lt;regex&gt;"
+          Then I should see :number "&lt;element&gt;" elements
+          Given the cache has been cleared
+          Given I run cron
+          Given I run drush :command
+          Given I wait for AJAX to finish
+            </div>
+          </pre>
+          <h3>No business would ever use this language!</h3>
+        </section>
+
+        <section data-background="#1e7849" data-background-transition="slide">
+          <h2>Use domain specific language</h2>
+          <pre>
+            <div class="bash">
+          Then I should see the text "Page not found"
+          Then I should see the welcome message
+          Then I should see 5 blog posts
+          And I wait for the autocomplete suggestions to appear
+            </div>
+          </pre>
+        </section>
+
+
         <section data-background="#7A6750" data-background-transition="slide">
-          <h2>Get started</h2>
+          <h2>Getting started with Behat</h2>
           <pre class="bash">
             <div>
          $ git clone https://github.com/pfrenssen/behat-workshop.git 
          $ cd behat-workshop
+            </div>
+            <div class="bash">
+            $ ./vendor/bin/behat -di
             </div>
           </pre>
         </section>
@@ -365,58 +461,6 @@
       1 scenario (1 passed)
       8 steps (8 passed)
       0m8.21s (18.10Mb)
-            </div>
-          </pre>
-        </section>
-
-        <section data-background="#b4946e" data-background-transition="slide">
-          <h2>Built-in step definitions</h2>
-          <pre>
-
-            <div class="bash">
-            $ ./vendor/bin/behat -di
-
-            <span class="fragment">Given I am not logged in
-            Given I am logged in as :name</span>
-
-            <span class="fragment">Given a/an :type (content )with the title :title</span>
-
-            <span class="fragment">When I visit :path
-            When I click :link
-            When I enter :value for :field
-            When I press the :button button</span>
-
-            <span class="fragment">Then I should see the text :text
-            Then I should not see the link :link</span>
-            </div>
-          </pre>
-          <p class="fragment">More than 100 built-in steps!</p>
-        </section>
-
-        <section data-background="#783d2b" data-background-transition="slide">
-          <h2>Bad built-in stuff</h2>
-          <pre>
-            <div class="bash">
-          Then I should get a :code HTTP response
-          Then I should see text matching "&lt;regex&gt;"
-          Then I should see :number "&lt;element&gt;" elements
-          Given the cache has been cleared
-          Given I run cron
-          Given I run drush :command
-          Given I wait for AJAX to finish
-            </div>
-          </pre>
-          <h3>No business would ever use this language!</h3>
-        </section>
-
-        <section data-background="#1e7849" data-background-transition="slide">
-          <h2>Use domain specific language</h2>
-          <pre>
-            <div class="bash">
-          Then I should see the text "Page not found"
-          Then I should see the welcome message
-          Then I should see 5 blog posts
-          And I wait for the autocomplete suggestions to appear
             </div>
           </pre>
         </section>
